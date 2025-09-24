@@ -1,0 +1,3889 @@
+%PDF-1.1
+1 0 obj
+<<
+/Creator (Developer 2000)
+/CreatorDate (Wed Feb 06  2019)
+/Author (Oracle Reports)
+/Producer (Oracle PDF driver)
+/Title (TD_FOLLOW07.pdf)
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Kids 4 0 R
+/Count 5 0 R
+>>
+endobj
+7 0 obj
+<</Length 8 0 R>>
+stream
+BT
+208.48 25.20 TD
+/F0 10.00 Tf
+(Wednesday February 6 2019 2:3 PM) Tj
+56.20 413.44 TD
+/F1 20.00 Tf
+(Codebook) Tj
+ET
+1 G
+0.00 w
+0 J
+0 j
+153.00 475.00 310.52 47.00 re S
+BT
+157.16 503.64 TD
+(2007 Time Diary Activity Followup) Tj
+135.00 -23.48 TD
+(File) Tj
+ET
+270.00 240.96 67.52 13.52 re S
+q
+270.00 240.96 67.52 13.52 re W n
+BT
+296.24 243.72 TD
+/F2 12.00 Tf
+( 43) Tj
+ET
+Q 0 g 0 G
+q
+247.52 258.96 117.00 13.52 re W n
+BT
+250.56 261.44 TD
+/F1 12.00 Tf
+(Number of Variables ) Tj
+ET
+Q 0 g 0 G
+endstream
+endobj
+8 0 obj
+521
+endobj
+9 0 obj
+<</Type /Font
+/Name /F0
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+>>
+endobj
+10 0 obj
+<</Type /Font
+/Name /F1
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+>>
+endobj
+11 0 obj
+<</Type /Font
+/Name /F2
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+>>
+endobj
+6 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F0 9 0 R /F1 10 0 R /F2 11 0 R >> >>
+/Contents 7 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+13 0 obj
+<</Length 14 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+192.00 747.96 TD
+/F3 10.00 Tf
+(2007 Time Diary Activity Followup File) Tj
+85.20 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(2) Tj
+( of ) Tj
+(11) Tj
+ -241.20 676.32 TD
+/F3 10.00 Tf
+(TDFREL07   "TIME DIARY FOLLOWUP RELEASE NUMBER 07"               NUM\(1.0\)) Tj
+0.00 -74.04 TD
+(TDFOID07   "2007 INTERVIEW NUMBER"                               NUM\(5.0\)) Tj
+0.00 -97.88 TD
+(TDFOSN07   "CYPSN 2007"                                          NUM\(2.0\)) Tj
+0.00 -105.48 TD
+(Q38_WD     "WEEKDAY DIARY RETURNED 07"                           NUM\(1.0\)) Tj
+0.00 -89.60 TD
+(Q38_WE     "WEEKEND DIARY RETURNED 07"                           NUM\(1.0\)) Tj
+0.00 -89.56 TD
+(Q38WDDAY   "TARGET DAY OF THE WEEKDAY DIARY 07"                  NUM\(1.0\)) Tj
+0.00 443.32 TD
+/F0 10.00 Tf
+(Release number for the CDS III Time Diary Follow-up Data File) Tj
+0.00 -71.56 TD
+(2007 PSID Main Family Identifier) Tj
+0.00 -97.92 TD
+(2007 PSID Sequence Number) Tj
+0.00 -105.48 TD
+(WEEKDAY diary returned) Tj
+0.00 -89.56 TD
+(WEEKEND diary returned) Tj
+0.00 -89.56 TD
+(Day of week WEEKDAY diary completed) Tj
+178.52 422.56 TD
+(1) Tj
+-48.00 -97.88 TD
+(1 - 8,332) Tj
+18.00 -97.92 TD
+(1 - 20) Tj
+30.00 -79.16 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -71.56 TD
+(2) Tj
+0.00 -18.00 TD
+(3) Tj
+0.00 -18.00 TD
+(4) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(6) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+15.00 562.08 TD
+(Release number 1 - December, 2009) Tj
+0.00 -97.88 TD
+(Interview number) Tj
+0.00 -97.92 TD
+(Sequence number of individuals in the PSID family at the) Tj
+0.00 -10.52 TD
+(time of the 2007 main family interview) Tj
+0.00 -68.64 TD
+(Yes) Tj
+0.00 -18.00 TD
+(No) Tj
+0.00 -71.56 TD
+(Yes) Tj
+0.00 -18.00 TD
+(No) Tj
+0.00 -71.56 TD
+(Monday) Tj
+0.00 -18.00 TD
+(Tuesday) Tj
+0.00 -18.00 TD
+(Wednesday) Tj
+0.00 -18.00 TD
+(Thursday) Tj
+0.00 -18.00 TD
+(Friday) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+-193.52 508.04 TD
+/F4 10.00 Tf
+(The values for this variable represent the 2007 interview number of the family in which) Tj
+0.00 -10.92 TD
+(this individual was included in 2007.) Tj
+0.00 -86.96 TD
+(This sequence number variable provides a means of identifying an individual's status with) Tj
+0.00 -10.92 TD
+(regard to the family unit at the time of the PSID main family 2007 interview.) Tj
+15.00 162.84 TD
+/F0 10.00 Tf
+(1,442) Tj
+0.00 -97.88 TD
+(1,442) Tj
+0.00 -97.92 TD
+(1,442) Tj
+0.00 -79.16 TD
+(1,435) Tj
+24.00 -18.00 TD
+(7) Tj
+-24.00 -71.56 TD
+(1,431) Tj
+18.00 -18.00 TD
+(11) Tj
+-6.00 -71.56 TD
+(281) Tj
+0.00 -18.00 TD
+(281) Tj
+0.00 -18.00 TD
+(303) Tj
+0.00 -18.00 TD
+(290) Tj
+0.00 -18.00 TD
+(280) Tj
+12.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(7) Tj
+15.00 562.08 TD
+(100.00) Tj
+0.00 -97.88 TD
+(100.00) Tj
+0.00 -97.92 TD
+(100.00) Tj
+6.00 -79.16 TD
+(99.51) Tj
+12.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(99.24) Tj
+12.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(19.49) Tj
+0.00 -18.00 TD
+(19.49) Tj
+0.00 -18.00 TD
+(21.01) Tj
+0.00 -18.00 TD
+(20.11) Tj
+0.00 -18.00 TD
+(19.42) Tj
+24.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.49) Tj
+ET
+36.00 666.00 540.00 18.00 re S
+36.00 568.12 540.00 18.00 re S
+36.00 470.20 540.00 18.00 re S
+36.00 391.04 540.00 18.00 re S
+36.00 301.48 540.00 18.00 re S
+36.00 211.92 540.00 18.00 re S
+BT
+39.00 671.72 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 669.72 m 81.00 669.72 l B*
+BT
+39.00 573.80 TD
+(  Count) Tj
+ET
+39.00 571.80 m 81.00 571.80 l B*
+BT
+39.00 475.92 TD
+(  Count) Tj
+ET
+39.00 473.92 m 81.00 473.92 l B*
+BT
+39.00 396.76 TD
+(  Count) Tj
+ET
+39.00 394.76 m 81.00 394.76 l B*
+BT
+39.00 307.20 TD
+(  Count) Tj
+ET
+39.00 305.20 m 81.00 305.20 l B*
+BT
+39.00 217.64 TD
+(  Count) Tj
+ET
+39.00 215.64 m 81.00 215.64 l B*
+BT
+90.00 671.72 TD
+(     %) Tj
+ET
+90.00 669.72 m 126.00 669.72 l B*
+BT
+90.00 573.80 TD
+(     %) Tj
+ET
+90.00 571.80 m 126.00 571.80 l B*
+BT
+90.00 475.92 TD
+(     %) Tj
+ET
+90.00 473.92 m 126.00 473.92 l B*
+BT
+90.00 396.76 TD
+(     %) Tj
+ET
+90.00 394.76 m 126.00 394.76 l B*
+BT
+90.00 307.20 TD
+(     %) Tj
+ET
+90.00 305.20 m 126.00 305.20 l B*
+BT
+90.00 217.64 TD
+(     %) Tj
+ET
+90.00 215.64 m 126.00 215.64 l B*
+BT
+136.52 671.72 TD
+(   Value/Range) Tj
+ET
+136.52 669.72 m 220.52 669.72 l B*
+BT
+136.52 573.80 TD
+(   Value/Range) Tj
+ET
+136.52 571.80 m 220.52 571.80 l B*
+BT
+136.52 475.92 TD
+(   Value/Range) Tj
+ET
+136.52 473.92 m 220.52 473.92 l B*
+BT
+136.52 396.76 TD
+(   Value/Range) Tj
+ET
+136.52 394.76 m 220.52 394.76 l B*
+BT
+136.52 307.20 TD
+(   Value/Range) Tj
+ET
+136.52 305.20 m 220.52 305.20 l B*
+BT
+136.52 217.64 TD
+(   Value/Range) Tj
+ET
+136.52 215.64 m 220.52 215.64 l B*
+BT
+229.52 671.72 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 669.72 m 571.52 669.72 l B*
+BT
+229.52 573.80 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 571.80 m 571.52 571.80 l B*
+BT
+229.52 475.92 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 473.92 m 571.52 473.92 l B*
+BT
+229.52 396.76 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 394.76 m 571.52 394.76 l B*
+BT
+229.52 307.20 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 305.20 m 571.52 305.20 l B*
+BT
+229.52 217.64 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 215.64 m 571.52 215.64 l B*
+endstream
+endobj
+14 0 obj
+5633
+endobj
+15 0 obj
+<</Type /Font
+/Name /F3
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+>>
+endobj
+16 0 obj
+<</Type /Font
+/Name /F4
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R /F4 16 0 R >> >>
+/Contents 13 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+18 0 obj
+<</Length 19 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+192.00 747.96 TD
+/F3 10.00 Tf
+(2007 Time Diary Activity Followup File) Tj
+85.20 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(3) Tj
+( of ) Tj
+(11) Tj
+-241.20 665.28 TD
+/F3 10.00 Tf
+(Q38WEDAY   "TARGET DAY OF THE WEEKEND DIARY 07"                  NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WDIWM   "WEEKDAY INTERVIEW - MONTH IW REVIEWED 07"            NUM\(2.0\)) Tj
+0.00 -305.56 TD
+(Q38WDIWD   "WEEKDAY INTERVIEW - DAY IW REVIEWED 07"              NUM\(2.0\)) Tj
+0.00 -107.56 TD
+(Q38WDIWY   "WEEKDAY INTERVIEW - YEAR IW REVIEWED 07"             NUM\(4.0\)) Tj
+0.00 527.92 TD
+/F0 10.00 Tf
+(Day of week WEEKEND diary completed) Tj
+0.00 -125.56 TD
+(Month of WEEKDAY interview) Tj
+0.00 -305.56 TD
+(Day of WEEKDAY interview) Tj
+0.00 -107.56 TD
+(Year of WEEKDAY interview) Tj
+178.52 507.16 TD
+(1) Tj
+0.00 -18.00 TD
+(7) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(2) Tj
+0.00 -18.00 TD
+(3) Tj
+0.00 -18.00 TD
+(4) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(6) Tj
+0.00 -18.00 TD
+(7) Tj
+0.00 -18.00 TD
+(8) Tj
+0.00 -18.00 TD
+(9) Tj
+-6.00 -18.00 TD
+(10) Tj
+0.00 -18.00 TD
+(11) Tj
+0.00 -18.00 TD
+(12) Tj
+0.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+-30.00 -71.56 TD
+(1 - 31) Tj
+24.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+-72.00 -71.56 TD
+(2,007 - 2,008) Tj
+48.00 -18.00 TD
+(9,999) Tj
+39.00 556.68 TD
+(Sunday) Tj
+0.00 -18.00 TD
+(Saturday) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(January) Tj
+0.00 -18.00 TD
+(February) Tj
+0.00 -18.00 TD
+(March) Tj
+0.00 -18.00 TD
+(April) Tj
+0.00 -18.00 TD
+(May) Tj
+0.00 -18.00 TD
+(June) Tj
+0.00 -18.00 TD
+(July) Tj
+0.00 -18.00 TD
+(August) Tj
+0.00 -18.00 TD
+(September) Tj
+0.00 -18.00 TD
+(October) Tj
+0.00 -18.00 TD
+(November) Tj
+0.00 -18.00 TD
+(December) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Day) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Year) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+-166.52 556.68 TD
+(754) Tj
+0.00 -18.00 TD
+(677) Tj
+12.00 -18.00 TD
+(-) Tj
+-6.00 -18.00 TD
+(11) Tj
+-6.00 -71.56 TD
+(204) Tj
+0.00 -18.00 TD
+(155) Tj
+0.00 -18.00 TD
+(124) Tj
+6.00 -18.00 TD
+(47) Tj
+6.00 -18.00 TD
+(2) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(310) Tj
+0.00 -18.00 TD
+(376) Tj
+0.00 -18.00 TD
+(178) Tj
+6.00 -18.00 TD
+(39) Tj
+6.00 -18.00 TD
+(7) Tj
+-24.00 -71.56 TD
+(1,396) Tj
+18.00 -18.00 TD
+(39) Tj
+6.00 -18.00 TD
+(7) Tj
+-24.00 -71.56 TD
+(1,396) Tj
+18.00 -18.00 TD
+(39) Tj
+27.00 556.68 TD
+(52.29) Tj
+0.00 -18.00 TD
+(46.95) Tj
+24.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(14.15) Tj
+0.00 -18.00 TD
+(10.75) Tj
+6.00 -18.00 TD
+(8.60) Tj
+0.00 -18.00 TD
+(3.26) Tj
+6.00 -18.00 TD
+(.14) Tj
+12.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+-24.00 -18.00 TD
+(21.50) Tj
+0.00 -18.00 TD
+(26.07) Tj
+0.00 -18.00 TD
+(12.34) Tj
+6.00 -18.00 TD
+(2.70) Tj
+6.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(96.81) Tj
+6.00 -18.00 TD
+(2.70) Tj
+6.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(96.81) Tj
+6.00 -18.00 TD
+(2.70) Tj
+ET
+36.00 657.44 540.00 18.00 re S
+36.00 531.88 540.00 18.00 re S
+36.00 226.32 540.00 18.00 re S
+36.00 118.76 540.00 18.00 re S
+BT
+39.00 663.16 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 661.16 m 81.00 661.16 l B*
+BT
+39.00 537.60 TD
+(  Count) Tj
+ET
+39.00 535.60 m 81.00 535.60 l B*
+BT
+39.00 232.04 TD
+(  Count) Tj
+ET
+39.00 230.04 m 81.00 230.04 l B*
+BT
+39.00 124.48 TD
+(  Count) Tj
+ET
+39.00 122.48 m 81.00 122.48 l B*
+BT
+90.00 663.16 TD
+(     %) Tj
+ET
+90.00 661.16 m 126.00 661.16 l B*
+BT
+90.00 537.60 TD
+(     %) Tj
+ET
+90.00 535.60 m 126.00 535.60 l B*
+BT
+90.00 232.04 TD
+(     %) Tj
+ET
+90.00 230.04 m 126.00 230.04 l B*
+BT
+90.00 124.48 TD
+(     %) Tj
+ET
+90.00 122.48 m 126.00 122.48 l B*
+BT
+136.52 663.16 TD
+(   Value/Range) Tj
+ET
+136.52 661.16 m 220.52 661.16 l B*
+BT
+136.52 537.60 TD
+(   Value/Range) Tj
+ET
+136.52 535.60 m 220.52 535.60 l B*
+BT
+136.52 232.04 TD
+(   Value/Range) Tj
+ET
+136.52 230.04 m 220.52 230.04 l B*
+BT
+136.52 124.48 TD
+(   Value/Range) Tj
+ET
+136.52 122.48 m 220.52 122.48 l B*
+BT
+229.52 663.16 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 661.16 m 571.52 661.16 l B*
+BT
+229.52 537.60 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 535.60 m 571.52 535.60 l B*
+BT
+229.52 232.04 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 230.04 m 571.52 230.04 l B*
+BT
+229.52 124.48 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 122.48 m 571.52 122.48 l B*
+endstream
+endobj
+19 0 obj
+5019
+endobj
+17 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R >> >>
+/Contents 18 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+21 0 obj
+<</Length 22 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+192.00 747.96 TD
+/F3 10.00 Tf
+(2007 Time Diary Activity Followup File) Tj
+85.20 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(4) Tj
+( of ) Tj
+(11) Tj
+-241.20 647.28 TD
+/F3 10.00 Tf
+(Q38WEIWM   "WEEKEND INTERVIEW - MONTH IW REVIEWED 07"            NUM\(2.0\)) Tj
+0.00 -305.56 TD
+(Q38WEIWD   "WEEKEND INTERVIEW - DAY IW REVIEWED 07"              NUM\(2.0\)) Tj
+0.00 -107.56 TD
+(Q38WEIWY   "WEEKEND INTERVIEW - YEAR IW REVIEWED 07"             NUM\(4.0\)) Tj
+0.00 -107.56 TD
+(Q38WDSAQ   "WEEKDAY DIARY SELF-ADMINISTERED 07"                  NUM\(1.0\)) Tj
+0.00 509.92 TD
+/F0 10.00 Tf
+(Month of WEEKEND interview) Tj
+0.00 -305.56 TD
+(Day of WEEKEND interview) Tj
+0.00 -107.56 TD
+(Year of WEEKEND interview) Tj
+0.00 -107.56 TD
+(Mode of WEEKDAY Interview -- SELF-ADMINISTERED) Tj
+178.52 560.72 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(2) Tj
+0.00 -18.00 TD
+(3) Tj
+0.00 -18.00 TD
+(4) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(6) Tj
+0.00 -18.00 TD
+(7) Tj
+0.00 -18.00 TD
+(8) Tj
+0.00 -18.00 TD
+(9) Tj
+-6.00 -18.00 TD
+(10) Tj
+0.00 -18.00 TD
+(11) Tj
+0.00 -18.00 TD
+(12) Tj
+0.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+-30.00 -71.56 TD
+(1 - 31) Tj
+24.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+-72.00 -71.56 TD
+(2,007 - 2,008) Tj
+48.00 -18.00 TD
+(9,999) Tj
+24.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+15.00 610.24 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(January) Tj
+0.00 -18.00 TD
+(February) Tj
+0.00 -18.00 TD
+(March) Tj
+0.00 -18.00 TD
+(April) Tj
+0.00 -18.00 TD
+(May) Tj
+0.00 -18.00 TD
+(June) Tj
+0.00 -18.00 TD
+(July) Tj
+0.00 -18.00 TD
+(August) Tj
+0.00 -18.00 TD
+(September) Tj
+0.00 -18.00 TD
+(October) Tj
+0.00 -18.00 TD
+(November) Tj
+0.00 -18.00 TD
+(December) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Day) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Year) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+-154.52 610.24 TD
+(7) Tj
+-12.00 -71.56 TD
+(201) Tj
+0.00 -18.00 TD
+(158) Tj
+0.00 -18.00 TD
+(120) Tj
+6.00 -18.00 TD
+(48) Tj
+6.00 -18.00 TD
+(2) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(308) Tj
+0.00 -18.00 TD
+(365) Tj
+0.00 -18.00 TD
+(186) Tj
+6.00 -18.00 TD
+(43) Tj
+0.00 -18.00 TD
+(11) Tj
+-18.00 -71.56 TD
+(1,388) Tj
+18.00 -18.00 TD
+(43) Tj
+0.00 -18.00 TD
+(11) Tj
+-18.00 -71.56 TD
+(1,388) Tj
+18.00 -18.00 TD
+(43) Tj
+0.00 -18.00 TD
+(11) Tj
+-18.00 -71.56 TD
+(1,149) Tj
+12.00 -18.00 TD
+(286) Tj
+45.00 610.24 TD
+(.49) Tj
+-12.00 -71.56 TD
+(13.94) Tj
+0.00 -18.00 TD
+(10.96) Tj
+6.00 -18.00 TD
+(8.32) Tj
+0.00 -18.00 TD
+(3.33) Tj
+6.00 -18.00 TD
+(.14) Tj
+12.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+-24.00 -18.00 TD
+(21.36) Tj
+0.00 -18.00 TD
+(25.31) Tj
+0.00 -18.00 TD
+(12.90) Tj
+6.00 -18.00 TD
+(2.98) Tj
+6.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(96.26) Tj
+6.00 -18.00 TD
+(2.98) Tj
+6.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(96.26) Tj
+6.00 -18.00 TD
+(2.98) Tj
+6.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(79.68) Tj
+0.00 -18.00 TD
+(19.83) Tj
+ET
+36.00 639.44 540.00 18.00 re S
+36.00 333.88 540.00 18.00 re S
+36.00 226.32 540.00 18.00 re S
+36.00 118.76 540.00 18.00 re S
+BT
+39.00 645.16 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 643.16 m 81.00 643.16 l B*
+BT
+39.00 339.60 TD
+(  Count) Tj
+ET
+39.00 337.60 m 81.00 337.60 l B*
+BT
+39.00 232.04 TD
+(  Count) Tj
+ET
+39.00 230.04 m 81.00 230.04 l B*
+BT
+39.00 124.48 TD
+(  Count) Tj
+ET
+39.00 122.48 m 81.00 122.48 l B*
+BT
+90.00 645.16 TD
+(     %) Tj
+ET
+90.00 643.16 m 126.00 643.16 l B*
+BT
+90.00 339.60 TD
+(     %) Tj
+ET
+90.00 337.60 m 126.00 337.60 l B*
+BT
+90.00 232.04 TD
+(     %) Tj
+ET
+90.00 230.04 m 126.00 230.04 l B*
+BT
+90.00 124.48 TD
+(     %) Tj
+ET
+90.00 122.48 m 126.00 122.48 l B*
+BT
+136.52 645.16 TD
+(   Value/Range) Tj
+ET
+136.52 643.16 m 220.52 643.16 l B*
+BT
+136.52 339.60 TD
+(   Value/Range) Tj
+ET
+136.52 337.60 m 220.52 337.60 l B*
+BT
+136.52 232.04 TD
+(   Value/Range) Tj
+ET
+136.52 230.04 m 220.52 230.04 l B*
+BT
+136.52 124.48 TD
+(   Value/Range) Tj
+ET
+136.52 122.48 m 220.52 122.48 l B*
+BT
+229.52 645.16 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 643.16 m 571.52 643.16 l B*
+BT
+229.52 339.60 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 337.60 m 571.52 337.60 l B*
+BT
+229.52 232.04 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 230.04 m 571.52 230.04 l B*
+BT
+229.52 124.48 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 122.48 m 571.52 122.48 l B*
+endstream
+endobj
+22 0 obj
+5080
+endobj
+20 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R >> >>
+/Contents 21 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+24 0 obj
+<</Length 25 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+192.00 747.96 TD
+/F3 10.00 Tf
+(2007 Time Diary Activity Followup File) Tj
+85.20 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(5) Tj
+( of ) Tj
+(11) Tj
+-241.20 629.28 TD
+/F3 10.00 Tf
+(Q38WESAQ   "WEEKEND DIARY SELF-ADMINISTERED 07"                  NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WDFTF   "WEEKDAY DIARY REVIEWED FACE-TO-FACE 07"              NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WEFTF   "WEEKEND DIARY REVIEWED FACE-TO-FACE 07"              NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WDTEL   "WEEKDAY DIARY REVIEWED BY PHONE 07"                  NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WETEL   "WEEKEND DIARY REVIEWED BY PHONE 07"                  NUM\(1.0\)) Tj
+0.00 491.48 TD
+/F0 10.00 Tf
+(Mode of WEEKEND Interview -- SELF-ADMINISTERED) Tj
+0.00 -125.56 TD
+(Mode of WEEKDAY Interview -- FACE-TO-FACE) Tj
+0.00 -125.56 TD
+(Mode of WEEKEND Interview -- FACE-TO-FACE) Tj
+0.00 -125.56 TD
+(Mode of WEEKDAY Interview -- PHONE) Tj
+0.00 -125.56 TD
+(Mode of WEEKEND Interview -- PHONE) Tj
+178.52 560.28 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+15.00 609.80 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q88_WD=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+-154.52 609.80 TD
+(-) Tj
+0.00 -18.00 TD
+(7) Tj
+-24.00 -71.56 TD
+(1,145) Tj
+12.00 -18.00 TD
+(286) Tj
+12.00 -18.00 TD
+(-) Tj
+-6.00 -18.00 TD
+(11) Tj
+-6.00 -71.56 TD
+(897) Tj
+0.00 -18.00 TD
+(538) Tj
+12.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(7) Tj
+-12.00 -71.56 TD
+(897) Tj
+0.00 -18.00 TD
+(534) Tj
+12.00 -18.00 TD
+(-) Tj
+-6.00 -18.00 TD
+(11) Tj
+-6.00 -71.56 TD
+(148) Tj
+-12.00 -18.00 TD
+(1,287) Tj
+24.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(7) Tj
+-12.00 -71.56 TD
+(147) Tj
+-12.00 -18.00 TD
+(1,284) Tj
+69.00 609.80 TD
+(-) Tj
+-12.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(79.40) Tj
+0.00 -18.00 TD
+(19.83) Tj
+24.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(62.21) Tj
+0.00 -18.00 TD
+(37.31) Tj
+24.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(62.21) Tj
+0.00 -18.00 TD
+(37.03) Tj
+24.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(10.26) Tj
+0.00 -18.00 TD
+(89.25) Tj
+24.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(10.19) Tj
+0.00 -18.00 TD
+(89.04) Tj
+ET
+36.00 621.44 540.00 18.00 re S
+36.00 495.88 540.00 18.00 re S
+36.00 370.32 540.00 18.00 re S
+36.00 244.76 540.00 18.00 re S
+36.00 119.20 540.00 18.00 re S
+BT
+39.00 627.16 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 625.16 m 81.00 625.16 l B*
+BT
+39.00 501.60 TD
+(  Count) Tj
+ET
+39.00 499.60 m 81.00 499.60 l B*
+BT
+39.00 376.04 TD
+(  Count) Tj
+ET
+39.00 374.04 m 81.00 374.04 l B*
+BT
+39.00 250.48 TD
+(  Count) Tj
+ET
+39.00 248.48 m 81.00 248.48 l B*
+BT
+39.00 124.92 TD
+(  Count) Tj
+ET
+39.00 122.92 m 81.00 122.92 l B*
+BT
+90.00 627.16 TD
+(     %) Tj
+ET
+90.00 625.16 m 126.00 625.16 l B*
+BT
+90.00 501.60 TD
+(     %) Tj
+ET
+90.00 499.60 m 126.00 499.60 l B*
+BT
+90.00 376.04 TD
+(     %) Tj
+ET
+90.00 374.04 m 126.00 374.04 l B*
+BT
+90.00 250.48 TD
+(     %) Tj
+ET
+90.00 248.48 m 126.00 248.48 l B*
+BT
+90.00 124.92 TD
+(     %) Tj
+ET
+90.00 122.92 m 126.00 122.92 l B*
+BT
+136.52 627.16 TD
+(   Value/Range) Tj
+ET
+136.52 625.16 m 220.52 625.16 l B*
+BT
+136.52 501.60 TD
+(   Value/Range) Tj
+ET
+136.52 499.60 m 220.52 499.60 l B*
+BT
+136.52 376.04 TD
+(   Value/Range) Tj
+ET
+136.52 374.04 m 220.52 374.04 l B*
+BT
+136.52 250.48 TD
+(   Value/Range) Tj
+ET
+136.52 248.48 m 220.52 248.48 l B*
+BT
+136.52 124.92 TD
+(   Value/Range) Tj
+ET
+136.52 122.92 m 220.52 122.92 l B*
+BT
+229.52 627.16 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 625.16 m 571.52 625.16 l B*
+BT
+229.52 501.60 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 499.60 m 571.52 499.60 l B*
+BT
+229.52 376.04 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 374.04 m 571.52 374.04 l B*
+BT
+229.52 250.48 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 248.48 m 571.52 248.48 l B*
+BT
+229.52 124.92 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 122.92 m 571.52 122.92 l B*
+endstream
+endobj
+25 0 obj
+5417
+endobj
+23 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R >> >>
+/Contents 24 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+27 0 obj
+<</Length 28 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+192.00 747.96 TD
+/F3 10.00 Tf
+(2007 Time Diary Activity Followup File) Tj
+85.20 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(6) Tj
+( of ) Tj
+(11) Tj
+-241.20 629.28 TD
+/F3 10.00 Tf
+(Q38WDCH    "WEEKDAY CHILD RESPONDENT 07"                         NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WECH    "WEEKEND CHILD RESPONDENT 07"                         NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WDPCG   "WEEKDAY PCG RESPONDENT 07"                           NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WEPCG   "WEEKEND PCG RESPONDENT 07"                           NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WDOCG   "WEEKDAY OCG RESPONDENT 07"                           NUM\(1.0\)) Tj
+0.00 491.48 TD
+/F0 10.00 Tf
+(WEEKDAY Respondent -- CHILD/ADOLESCENT) Tj
+0.00 -125.56 TD
+(WEEKEND Respondent -- CHILD/ADOLESCENT) Tj
+0.00 -125.56 TD
+(WEEKDAY Respondent -- PRIMARY CAREGIVER) Tj
+0.00 -125.56 TD
+(WEEKEND Respondent -- PRIMARY CAREGIVER) Tj
+0.00 -125.56 TD
+(WEEKDAY Respondent -- OTHER CAREGIVER \(OCG\)) Tj
+178.52 560.28 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+15.00 609.80 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+-154.52 609.80 TD
+(-) Tj
+-6.00 -18.00 TD
+(11) Tj
+-18.00 -71.56 TD
+(1,306) Tj
+12.00 -18.00 TD
+(129) Tj
+12.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(7) Tj
+-24.00 -71.56 TD
+(1,321) Tj
+12.00 -18.00 TD
+(110) Tj
+12.00 -18.00 TD
+(-) Tj
+-6.00 -18.00 TD
+(11) Tj
+-6.00 -71.56 TD
+(391) Tj
+-12.00 -18.00 TD
+(1,044) Tj
+24.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(7) Tj
+-12.00 -71.56 TD
+(396) Tj
+-12.00 -18.00 TD
+(1,035) Tj
+24.00 -18.00 TD
+(-) Tj
+-6.00 -18.00 TD
+(11) Tj
+0.00 -71.56 TD
+(12) Tj
+-18.00 -18.00 TD
+(1,423) Tj
+69.00 609.80 TD
+(-) Tj
+-12.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(90.57) Tj
+6.00 -18.00 TD
+(8.95) Tj
+18.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(91.61) Tj
+6.00 -18.00 TD
+(7.63) Tj
+18.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(27.12) Tj
+0.00 -18.00 TD
+(72.40) Tj
+24.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(27.46) Tj
+0.00 -18.00 TD
+(71.78) Tj
+24.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.76) Tj
+0.00 -71.56 TD
+(.83) Tj
+-12.00 -18.00 TD
+(98.68) Tj
+ET
+36.00 621.44 540.00 18.00 re S
+36.00 495.88 540.00 18.00 re S
+36.00 370.32 540.00 18.00 re S
+36.00 244.76 540.00 18.00 re S
+36.00 119.20 540.00 18.00 re S
+BT
+39.00 627.16 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 625.16 m 81.00 625.16 l B*
+BT
+39.00 501.60 TD
+(  Count) Tj
+ET
+39.00 499.60 m 81.00 499.60 l B*
+BT
+39.00 376.04 TD
+(  Count) Tj
+ET
+39.00 374.04 m 81.00 374.04 l B*
+BT
+39.00 250.48 TD
+(  Count) Tj
+ET
+39.00 248.48 m 81.00 248.48 l B*
+BT
+39.00 124.92 TD
+(  Count) Tj
+ET
+39.00 122.92 m 81.00 122.92 l B*
+BT
+90.00 627.16 TD
+(     %) Tj
+ET
+90.00 625.16 m 126.00 625.16 l B*
+BT
+90.00 501.60 TD
+(     %) Tj
+ET
+90.00 499.60 m 126.00 499.60 l B*
+BT
+90.00 376.04 TD
+(     %) Tj
+ET
+90.00 374.04 m 126.00 374.04 l B*
+BT
+90.00 250.48 TD
+(     %) Tj
+ET
+90.00 248.48 m 126.00 248.48 l B*
+BT
+90.00 124.92 TD
+(     %) Tj
+ET
+90.00 122.92 m 126.00 122.92 l B*
+BT
+136.52 627.16 TD
+(   Value/Range) Tj
+ET
+136.52 625.16 m 220.52 625.16 l B*
+BT
+136.52 501.60 TD
+(   Value/Range) Tj
+ET
+136.52 499.60 m 220.52 499.60 l B*
+BT
+136.52 376.04 TD
+(   Value/Range) Tj
+ET
+136.52 374.04 m 220.52 374.04 l B*
+BT
+136.52 250.48 TD
+(   Value/Range) Tj
+ET
+136.52 248.48 m 220.52 248.48 l B*
+BT
+136.52 124.92 TD
+(   Value/Range) Tj
+ET
+136.52 122.92 m 220.52 122.92 l B*
+BT
+229.52 627.16 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 625.16 m 571.52 625.16 l B*
+BT
+229.52 501.60 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 499.60 m 571.52 499.60 l B*
+BT
+229.52 376.04 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 374.04 m 571.52 374.04 l B*
+BT
+229.52 250.48 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 248.48 m 571.52 248.48 l B*
+BT
+229.52 124.92 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 122.92 m 571.52 122.92 l B*
+endstream
+endobj
+28 0 obj
+5423
+endobj
+26 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R >> >>
+/Contents 27 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+30 0 obj
+<</Length 31 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+192.00 747.96 TD
+/F3 10.00 Tf
+(2007 Time Diary Activity Followup File) Tj
+85.20 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(7) Tj
+( of ) Tj
+(11) Tj
+-241.20 629.28 TD
+/F3 10.00 Tf
+(Q38WEOCG   "WEEKEND OCG RESPONDENT 07"                           NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WDOTH   "WEEKDAY OTHER RESPONDENT 07"                         NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WEOTH   "WEEKEND OTHER RESPONDENT 07"                         NUM\(1.0\)) Tj
+0.00 -125.56 TD
+(Q38WD_A1   "WHO COMPLETED WEEKDAY DIARY 07"                      NUM\(1.0\)) Tj
+0.00 365.92 TD
+/F0 10.00 Tf
+(WEEKEND Respondent -- OTHER CAREGIVER \(OCG\)) Tj
+0.00 -125.56 TD
+(WEEKDAY Respondent -- OTHER) Tj
+0.00 -125.56 TD
+(WEEKEND Respondent -- OTHER) Tj
+0.00 -125.56 TD
+(A1. Who completed the WEEKDAY time diary?) Tj
+178.52 434.72 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(2) Tj
+0.00 -18.00 TD
+(3) Tj
+0.00 -18.00 TD
+(4) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(6) Tj
+0.00 -18.00 TD
+(7) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+15.00 610.24 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Selected) Tj
+0.00 -18.00 TD
+(Not selected) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Child did the time diary alone) Tj
+0.00 -18.00 TD
+(Child's mother did the time diary alone) Tj
+0.00 -18.00 TD
+(Child and child's mother did the time diary together) Tj
+0.00 -18.00 TD
+(Child's father did the time diary alone) Tj
+0.00 -18.00 TD
+(Child and child's father did the time diary together) Tj
+0.00 -18.00 TD
+(Child did the time diary with interviewer) Tj
+0.00 -18.00 TD
+(Other \(specify\)) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+-154.52 610.24 TD
+(-) Tj
+0.00 -18.00 TD
+(7) Tj
+-6.00 -71.56 TD
+(15) Tj
+-18.00 -18.00 TD
+(1,416) Tj
+24.00 -18.00 TD
+(-) Tj
+-6.00 -18.00 TD
+(11) Tj
+-6.00 -71.56 TD
+(144) Tj
+-12.00 -18.00 TD
+(1,291) Tj
+24.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(7) Tj
+-12.00 -71.56 TD
+(147) Tj
+-12.00 -18.00 TD
+(1,284) Tj
+24.00 -18.00 TD
+(-) Tj
+-6.00 -18.00 TD
+(11) Tj
+-6.00 -71.56 TD
+(692) Tj
+0.00 -18.00 TD
+(102) Tj
+0.00 -18.00 TD
+(247) Tj
+12.00 -18.00 TD
+(1) Tj
+-6.00 -18.00 TD
+(10) Tj
+-6.00 -18.00 TD
+(243) Tj
+6.00 -18.00 TD
+(80) Tj
+0.00 -18.00 TD
+(60) Tj
+6.00 -18.00 TD
+(7) Tj
+45.00 610.24 TD
+(-) Tj
+-12.00 -18.00 TD
+(.49) Tj
+-6.00 -71.56 TD
+(1.04) Tj
+-6.00 -18.00 TD
+(98.20) Tj
+24.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.76) Tj
+-6.00 -71.56 TD
+(9.99) Tj
+-6.00 -18.00 TD
+(89.53) Tj
+24.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(10.19) Tj
+0.00 -18.00 TD
+(89.04) Tj
+24.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(47.99) Tj
+6.00 -18.00 TD
+(7.07) Tj
+-6.00 -18.00 TD
+(17.13) Tj
+12.00 -18.00 TD
+(.07) Tj
+0.00 -18.00 TD
+(.69) Tj
+-12.00 -18.00 TD
+(16.85) Tj
+6.00 -18.00 TD
+(5.55) Tj
+0.00 -18.00 TD
+(4.16) Tj
+6.00 -18.00 TD
+(.49) Tj
+ET
+36.00 621.44 540.00 18.00 re S
+36.00 495.88 540.00 18.00 re S
+36.00 370.32 540.00 18.00 re S
+36.00 244.76 540.00 18.00 re S
+BT
+39.00 627.16 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 625.16 m 81.00 625.16 l B*
+BT
+39.00 501.60 TD
+(  Count) Tj
+ET
+39.00 499.60 m 81.00 499.60 l B*
+BT
+39.00 376.04 TD
+(  Count) Tj
+ET
+39.00 374.04 m 81.00 374.04 l B*
+BT
+39.00 250.48 TD
+(  Count) Tj
+ET
+39.00 248.48 m 81.00 248.48 l B*
+BT
+90.00 627.16 TD
+(     %) Tj
+ET
+90.00 625.16 m 126.00 625.16 l B*
+BT
+90.00 501.60 TD
+(     %) Tj
+ET
+90.00 499.60 m 126.00 499.60 l B*
+BT
+90.00 376.04 TD
+(     %) Tj
+ET
+90.00 374.04 m 126.00 374.04 l B*
+BT
+90.00 250.48 TD
+(     %) Tj
+ET
+90.00 248.48 m 126.00 248.48 l B*
+BT
+136.52 627.16 TD
+(   Value/Range) Tj
+ET
+136.52 625.16 m 220.52 625.16 l B*
+BT
+136.52 501.60 TD
+(   Value/Range) Tj
+ET
+136.52 499.60 m 220.52 499.60 l B*
+BT
+136.52 376.04 TD
+(   Value/Range) Tj
+ET
+136.52 374.04 m 220.52 374.04 l B*
+BT
+136.52 250.48 TD
+(   Value/Range) Tj
+ET
+136.52 248.48 m 220.52 248.48 l B*
+BT
+229.52 627.16 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 625.16 m 571.52 625.16 l B*
+BT
+229.52 501.60 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 499.60 m 571.52 499.60 l B*
+BT
+229.52 376.04 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 374.04 m 571.52 374.04 l B*
+BT
+229.52 250.48 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 248.48 m 571.52 248.48 l B*
+endstream
+endobj
+31 0 obj
+5374
+endobj
+29 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R >> >>
+/Contents 30 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+33 0 obj
+<</Length 34 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+192.00 747.96 TD
+/F3 10.00 Tf
+(2007 Time Diary Activity Followup File) Tj
+85.20 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(8) Tj
+( of ) Tj
+(11) Tj
+-241.20 665.28 TD
+/F3 10.00 Tf
+(Q38WE_A1   "WHO COMPLETED WEEKEND DIARY 07"                      NUM\(1.0\)) Tj
+0.00 -215.56 TD
+(Q38WD_A2   "HOW TYPICAL WAS DAY? - WEEKDAY 07"                   NUM\(1.0\)) Tj
+0.00 -107.56 TD
+(Q38WE_A2   "HOW TYPICAL WAS DAY? - WEEKEND 07"                   NUM\(1.0\)) Tj
+0.00 -107.56 TD
+(Q38WDA3M   "WD TIME DIARY - MONTH OF DIARY 07"                   NUM\(2.0\)) Tj
+0.00 419.92 TD
+/F0 10.00 Tf
+(A1. Who completed the WEEKEND time diary?) Tj
+0.00 -215.56 TD
+(A2. How typical was this day \(for that day of the week\)?) Tj
+0.00 -107.56 TD
+(A2. How typical was this day \(for that day of the week\)?) Tj
+0.00 -107.56 TD
+(A3. On what date did the time diary activities take place? -- WEEKDAY MONTH) Tj
+178.52 399.16 TD
+(1) Tj
+0.00 -18.00 TD
+(2) Tj
+0.00 -18.00 TD
+(3) Tj
+0.00 -18.00 TD
+(4) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(6) Tj
+0.00 -18.00 TD
+(7) Tj
+0.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+-24.00 -71.56 TD
+(1 - 5) Tj
+24.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+-24.00 -71.56 TD
+(1 - 5) Tj
+24.00 -18.00 TD
+(9) Tj
+0.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(2) Tj
+0.00 -18.00 TD
+(3) Tj
+0.00 -18.00 TD
+(4) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(6) Tj
+0.00 -18.00 TD
+(7) Tj
+0.00 -18.00 TD
+(8) Tj
+15.00 556.68 TD
+(Child did the time diary alone) Tj
+0.00 -18.00 TD
+(Child's mother did the time diary alone) Tj
+0.00 -18.00 TD
+(Child and child's mother did the time diary together) Tj
+0.00 -18.00 TD
+(Child's father did the time diary alone) Tj
+0.00 -18.00 TD
+(Child and child's father did the time diary together) Tj
+0.00 -18.00 TD
+(Child did the time diary with interviewer) Tj
+0.00 -18.00 TD
+(Other \(specify\)) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Very typical - Not at all typical) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Very typical - Not at all typical) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(January) Tj
+0.00 -18.00 TD
+(February) Tj
+0.00 -18.00 TD
+(March) Tj
+0.00 -18.00 TD
+(April) Tj
+0.00 -18.00 TD
+(May) Tj
+0.00 -18.00 TD
+(June) Tj
+0.00 -18.00 TD
+(July) Tj
+0.00 -18.00 TD
+(August) Tj
+-166.52 556.68 TD
+(661) Tj
+6.00 -18.00 TD
+(85) Tj
+-6.00 -18.00 TD
+(257) Tj
+12.00 -18.00 TD
+(1) Tj
+-6.00 -18.00 TD
+(10) Tj
+-6.00 -18.00 TD
+(273) Tj
+6.00 -18.00 TD
+(76) Tj
+0.00 -18.00 TD
+(68) Tj
+0.00 -18.00 TD
+(11) Tj
+-18.00 -71.56 TD
+(1,360) Tj
+18.00 -18.00 TD
+(75) Tj
+6.00 -18.00 TD
+(7) Tj
+-24.00 -71.56 TD
+(1,356) Tj
+18.00 -18.00 TD
+(75) Tj
+0.00 -18.00 TD
+(11) Tj
+-6.00 -71.56 TD
+(219) Tj
+0.00 -18.00 TD
+(165) Tj
+6.00 -18.00 TD
+(75) Tj
+0.00 -18.00 TD
+(31) Tj
+6.00 -18.00 TD
+(4) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+21.00 556.68 TD
+(45.84) Tj
+6.00 -18.00 TD
+(5.89) Tj
+-6.00 -18.00 TD
+(17.82) Tj
+12.00 -18.00 TD
+(.07) Tj
+0.00 -18.00 TD
+(.69) Tj
+-12.00 -18.00 TD
+(18.93) Tj
+6.00 -18.00 TD
+(5.27) Tj
+0.00 -18.00 TD
+(4.72) Tj
+6.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(94.31) Tj
+6.00 -18.00 TD
+(5.20) Tj
+6.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(94.04) Tj
+6.00 -18.00 TD
+(5.20) Tj
+6.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(15.19) Tj
+0.00 -18.00 TD
+(11.44) Tj
+6.00 -18.00 TD
+(5.20) Tj
+0.00 -18.00 TD
+(2.15) Tj
+6.00 -18.00 TD
+(.28) Tj
+12.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+ET
+36.00 657.44 540.00 18.00 re S
+36.00 441.88 540.00 18.00 re S
+36.00 334.32 540.00 18.00 re S
+36.00 226.76 540.00 18.00 re S
+BT
+39.00 663.16 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 661.16 m 81.00 661.16 l B*
+BT
+39.00 447.60 TD
+(  Count) Tj
+ET
+39.00 445.60 m 81.00 445.60 l B*
+BT
+39.00 340.04 TD
+(  Count) Tj
+ET
+39.00 338.04 m 81.00 338.04 l B*
+BT
+39.00 232.48 TD
+(  Count) Tj
+ET
+39.00 230.48 m 81.00 230.48 l B*
+BT
+90.00 663.16 TD
+(     %) Tj
+ET
+90.00 661.16 m 126.00 661.16 l B*
+BT
+90.00 447.60 TD
+(     %) Tj
+ET
+90.00 445.60 m 126.00 445.60 l B*
+BT
+90.00 340.04 TD
+(     %) Tj
+ET
+90.00 338.04 m 126.00 338.04 l B*
+BT
+90.00 232.48 TD
+(     %) Tj
+ET
+90.00 230.48 m 126.00 230.48 l B*
+BT
+136.52 663.16 TD
+(   Value/Range) Tj
+ET
+136.52 661.16 m 220.52 661.16 l B*
+BT
+136.52 447.60 TD
+(   Value/Range) Tj
+ET
+136.52 445.60 m 220.52 445.60 l B*
+BT
+136.52 340.04 TD
+(   Value/Range) Tj
+ET
+136.52 338.04 m 220.52 338.04 l B*
+BT
+136.52 232.48 TD
+(   Value/Range) Tj
+ET
+136.52 230.48 m 220.52 230.48 l B*
+BT
+229.52 663.16 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 661.16 m 571.52 661.16 l B*
+BT
+229.52 447.60 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 445.60 m 571.52 445.60 l B*
+BT
+229.52 340.04 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 338.04 m 571.52 338.04 l B*
+BT
+229.52 232.48 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 230.48 m 571.52 230.48 l B*
+endstream
+endobj
+34 0 obj
+5394
+endobj
+32 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R >> >>
+/Contents 33 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+36 0 obj
+<</Length 37 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+192.00 747.96 TD
+/F3 10.00 Tf
+(2007 Time Diary Activity Followup File) Tj
+85.20 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(9) Tj
+( of ) Tj
+(11) Tj
+-241.20 557.28 TD
+/F3 10.00 Tf
+(Q38WDA3D   "WD TIME DIARY - DAY OF DIARY 07"                     NUM\(2.0\)) Tj
+0.00 -107.56 TD
+(Q38WDA3Y   "WD TIME DIARY - YEAR OF DIARY 07"                    NUM\(4.0\)) Tj
+0.00 -107.56 TD
+(Q38WEA3M   "WE TIME DIARY - MONTH OF DIARY 07"                   NUM\(2.0\)) Tj
+0.00 204.36 TD
+/F0 10.00 Tf
+(A3. On what date did the time diary activities take place? -- WEEKDAY DAY) Tj
+0.00 -107.56 TD
+(A3. On what date did the time diary activities take place? -- WEEKDAY YEAR) Tj
+0.00 -107.56 TD
+(A3. On what date did the time diary activities take place? -- WEEKEND MONTH) Tj
+178.52 345.16 TD
+(9) Tj
+-6.00 -18.00 TD
+(10) Tj
+0.00 -18.00 TD
+(11) Tj
+0.00 -18.00 TD
+(12) Tj
+0.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+-30.00 -71.56 TD
+(1 - 31) Tj
+24.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+-72.00 -71.56 TD
+(2,007 - 2,008) Tj
+48.00 -18.00 TD
+(9,999) Tj
+24.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(2) Tj
+0.00 -18.00 TD
+(3) Tj
+0.00 -18.00 TD
+(4) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(6) Tj
+0.00 -18.00 TD
+(7) Tj
+0.00 -18.00 TD
+(8) Tj
+0.00 -18.00 TD
+(9) Tj
+-6.00 -18.00 TD
+(10) Tj
+0.00 -18.00 TD
+(11) Tj
+0.00 -18.00 TD
+(12) Tj
+0.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+15.00 610.68 TD
+(September) Tj
+0.00 -18.00 TD
+(October) Tj
+0.00 -18.00 TD
+(November) Tj
+0.00 -18.00 TD
+(December) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Day) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Year) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(January) Tj
+0.00 -18.00 TD
+(February) Tj
+0.00 -18.00 TD
+(March) Tj
+0.00 -18.00 TD
+(April) Tj
+0.00 -18.00 TD
+(May) Tj
+0.00 -18.00 TD
+(June) Tj
+0.00 -18.00 TD
+(July) Tj
+0.00 -18.00 TD
+(August) Tj
+0.00 -18.00 TD
+(September) Tj
+0.00 -18.00 TD
+(October) Tj
+0.00 -18.00 TD
+(November) Tj
+0.00 -18.00 TD
+(December) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+-154.52 610.68 TD
+(1) Tj
+-12.00 -18.00 TD
+(383) Tj
+0.00 -18.00 TD
+(356) Tj
+0.00 -18.00 TD
+(117) Tj
+6.00 -18.00 TD
+(84) Tj
+6.00 -18.00 TD
+(7) Tj
+-24.00 -71.56 TD
+(1,351) Tj
+18.00 -18.00 TD
+(84) Tj
+6.00 -18.00 TD
+(7) Tj
+-24.00 -71.56 TD
+(1,351) Tj
+18.00 -18.00 TD
+(84) Tj
+6.00 -18.00 TD
+(7) Tj
+-12.00 -71.56 TD
+(196) Tj
+0.00 -18.00 TD
+(151) Tj
+6.00 -18.00 TD
+(99) Tj
+0.00 -18.00 TD
+(29) Tj
+6.00 -18.00 TD
+(4) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(3) Tj
+-12.00 -18.00 TD
+(371) Tj
+0.00 -18.00 TD
+(337) Tj
+0.00 -18.00 TD
+(156) Tj
+6.00 -18.00 TD
+(85) Tj
+0.00 -18.00 TD
+(11) Tj
+39.00 610.68 TD
+(.07) Tj
+-12.00 -18.00 TD
+(26.56) Tj
+0.00 -18.00 TD
+(24.69) Tj
+6.00 -18.00 TD
+(8.11) Tj
+0.00 -18.00 TD
+(5.83) Tj
+6.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(93.69) Tj
+6.00 -18.00 TD
+(5.83) Tj
+6.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(93.69) Tj
+6.00 -18.00 TD
+(5.83) Tj
+6.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(13.59) Tj
+0.00 -18.00 TD
+(10.47) Tj
+6.00 -18.00 TD
+(6.87) Tj
+0.00 -18.00 TD
+(2.01) Tj
+6.00 -18.00 TD
+(.28) Tj
+12.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.21) Tj
+-12.00 -18.00 TD
+(25.73) Tj
+0.00 -18.00 TD
+(23.37) Tj
+0.00 -18.00 TD
+(10.82) Tj
+6.00 -18.00 TD
+(5.89) Tj
+6.00 -18.00 TD
+(.76) Tj
+ET
+36.00 549.44 540.00 18.00 re S
+36.00 441.88 540.00 18.00 re S
+36.00 334.32 540.00 18.00 re S
+BT
+39.00 555.16 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 553.16 m 81.00 553.16 l B*
+BT
+39.00 447.60 TD
+(  Count) Tj
+ET
+39.00 445.60 m 81.00 445.60 l B*
+BT
+39.00 340.04 TD
+(  Count) Tj
+ET
+39.00 338.04 m 81.00 338.04 l B*
+BT
+90.00 555.16 TD
+(     %) Tj
+ET
+90.00 553.16 m 126.00 553.16 l B*
+BT
+90.00 447.60 TD
+(     %) Tj
+ET
+90.00 445.60 m 126.00 445.60 l B*
+BT
+90.00 340.04 TD
+(     %) Tj
+ET
+90.00 338.04 m 126.00 338.04 l B*
+BT
+136.52 555.16 TD
+(   Value/Range) Tj
+ET
+136.52 553.16 m 220.52 553.16 l B*
+BT
+136.52 447.60 TD
+(   Value/Range) Tj
+ET
+136.52 445.60 m 220.52 445.60 l B*
+BT
+136.52 340.04 TD
+(   Value/Range) Tj
+ET
+136.52 338.04 m 220.52 338.04 l B*
+BT
+229.52 555.16 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 553.16 m 571.52 553.16 l B*
+BT
+229.52 447.60 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 445.60 m 571.52 445.60 l B*
+BT
+229.52 340.04 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 338.04 m 571.52 338.04 l B*
+endstream
+endobj
+37 0 obj
+4993
+endobj
+35 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R >> >>
+/Contents 36 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+39 0 obj
+<</Length 40 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+192.00 747.96 TD
+/F3 10.00 Tf
+(2007 Time Diary Activity Followup File) Tj
+82.80 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(10) Tj
+( of ) Tj
+(11) Tj
+-238.80 665.28 TD
+/F3 10.00 Tf
+(Q38WEA3D   "WE TIME DIARY - DAY OF DIARY 07"                     NUM\(2.0\)) Tj
+0.00 -107.56 TD
+(Q38WEA3Y   "WE TIME DIARY - YEAR OF DIARY 07"                    NUM\(4.0\)) Tj
+0.00 -107.56 TD
+(Q38WDA4M   "WD TIME DIARY - MONTH COMPLETED 07"                  NUM\(2.0\)) Tj
+0.00 -305.56 TD
+(Q38WDA4D   "WD TIME DIARY - DAY COMPLETED 07"                    NUM\(2.0\)) Tj
+0.00 509.92 TD
+/F0 10.00 Tf
+(A3. On what date did the time diary activities take place? -- WEEKEND DAY) Tj
+0.00 -107.56 TD
+(A3. On what date did the time diary activities take place? -- WEEKEND YEAR) Tj
+0.00 -107.56 TD
+(A4. On what date did you fill out the time diary? -- WEEKDAY MONTH) Tj
+0.00 -305.56 TD
+(A4. On what date did you fill out the time diary? -- WEEKDAY DAY) Tj
+148.52 489.16 TD
+(1 - 31) Tj
+24.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+-72.00 -71.56 TD
+(2,007 - 2,008) Tj
+48.00 -18.00 TD
+(9,999) Tj
+24.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(2) Tj
+0.00 -18.00 TD
+(3) Tj
+0.00 -18.00 TD
+(4) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(6) Tj
+0.00 -18.00 TD
+(7) Tj
+0.00 -18.00 TD
+(8) Tj
+0.00 -18.00 TD
+(9) Tj
+-6.00 -18.00 TD
+(10) Tj
+0.00 -18.00 TD
+(11) Tj
+0.00 -18.00 TD
+(12) Tj
+0.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+-30.00 -71.56 TD
+(1 - 31) Tj
+24.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+15.00 556.68 TD
+(Day) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Year) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(January) Tj
+0.00 -18.00 TD
+(February) Tj
+0.00 -18.00 TD
+(March) Tj
+0.00 -18.00 TD
+(April) Tj
+0.00 -18.00 TD
+(May) Tj
+0.00 -18.00 TD
+(June) Tj
+0.00 -18.00 TD
+(July) Tj
+0.00 -18.00 TD
+(August) Tj
+0.00 -18.00 TD
+(September) Tj
+0.00 -18.00 TD
+(October) Tj
+0.00 -18.00 TD
+(November) Tj
+0.00 -18.00 TD
+(December) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(Day) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+-178.52 556.68 TD
+(1,346) Tj
+18.00 -18.00 TD
+(85) Tj
+0.00 -18.00 TD
+(11) Tj
+-18.00 -71.56 TD
+(1,346) Tj
+18.00 -18.00 TD
+(85) Tj
+0.00 -18.00 TD
+(11) Tj
+-6.00 -71.56 TD
+(208) Tj
+0.00 -18.00 TD
+(157) Tj
+6.00 -18.00 TD
+(94) Tj
+0.00 -18.00 TD
+(34) Tj
+6.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(1) Tj
+-12.00 -18.00 TD
+(367) Tj
+0.00 -18.00 TD
+(346) Tj
+0.00 -18.00 TD
+(140) Tj
+6.00 -18.00 TD
+(83) Tj
+6.00 -18.00 TD
+(7) Tj
+-24.00 -71.56 TD
+(1,352) Tj
+18.00 -18.00 TD
+(83) Tj
+6.00 -18.00 TD
+(7) Tj
+21.00 556.68 TD
+(93.34) Tj
+6.00 -18.00 TD
+(5.89) Tj
+6.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(93.34) Tj
+6.00 -18.00 TD
+(5.89) Tj
+6.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(14.42) Tj
+0.00 -18.00 TD
+(10.89) Tj
+6.00 -18.00 TD
+(6.52) Tj
+0.00 -18.00 TD
+(2.36) Tj
+6.00 -18.00 TD
+(.35) Tj
+12.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.07) Tj
+-12.00 -18.00 TD
+(25.45) Tj
+0.00 -18.00 TD
+(23.99) Tj
+6.00 -18.00 TD
+(9.71) Tj
+0.00 -18.00 TD
+(5.76) Tj
+6.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(93.76) Tj
+6.00 -18.00 TD
+(5.76) Tj
+6.00 -18.00 TD
+(.49) Tj
+ET
+36.00 657.44 540.00 18.00 re S
+36.00 549.88 540.00 18.00 re S
+36.00 442.32 540.00 18.00 re S
+36.00 136.76 540.00 18.00 re S
+BT
+39.00 663.16 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 661.16 m 81.00 661.16 l B*
+BT
+39.00 555.60 TD
+(  Count) Tj
+ET
+39.00 553.60 m 81.00 553.60 l B*
+BT
+39.00 448.04 TD
+(  Count) Tj
+ET
+39.00 446.04 m 81.00 446.04 l B*
+BT
+39.00 142.48 TD
+(  Count) Tj
+ET
+39.00 140.48 m 81.00 140.48 l B*
+BT
+90.00 663.16 TD
+(     %) Tj
+ET
+90.00 661.16 m 126.00 661.16 l B*
+BT
+90.00 555.60 TD
+(     %) Tj
+ET
+90.00 553.60 m 126.00 553.60 l B*
+BT
+90.00 448.04 TD
+(     %) Tj
+ET
+90.00 446.04 m 126.00 446.04 l B*
+BT
+90.00 142.48 TD
+(     %) Tj
+ET
+90.00 140.48 m 126.00 140.48 l B*
+BT
+136.52 663.16 TD
+(   Value/Range) Tj
+ET
+136.52 661.16 m 220.52 661.16 l B*
+BT
+136.52 555.60 TD
+(   Value/Range) Tj
+ET
+136.52 553.60 m 220.52 553.60 l B*
+BT
+136.52 448.04 TD
+(   Value/Range) Tj
+ET
+136.52 446.04 m 220.52 446.04 l B*
+BT
+136.52 142.48 TD
+(   Value/Range) Tj
+ET
+136.52 140.48 m 220.52 140.48 l B*
+BT
+229.52 663.16 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 661.16 m 571.52 661.16 l B*
+BT
+229.52 555.60 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 553.60 m 571.52 553.60 l B*
+BT
+229.52 448.04 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 446.04 m 571.52 446.04 l B*
+BT
+229.52 142.48 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 140.48 m 571.52 140.48 l B*
+endstream
+endobj
+40 0 obj
+5232
+endobj
+38 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R >> >>
+/Contents 39 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+42 0 obj
+<</Length 43 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+192.00 747.96 TD
+/F3 10.00 Tf
+(2007 Time Diary Activity Followup File) Tj
+82.80 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(11) Tj
+( of ) Tj
+(11) Tj
+-238.80 665.28 TD
+/F3 10.00 Tf
+(Q38WDA4Y   "WD TIME DIARY - YEAR COMPLETED 07"                   NUM\(4.0\)) Tj
+0.00 -107.56 TD
+(Q38WEA4M   "WE TIME DIARY - MONTH COMPLETED 07"                  NUM\(2.0\)) Tj
+0.00 -305.56 TD
+(Q38WEA4D   "WE TIME DIARY - DAY COMPLETED 07"                    NUM\(2.0\)) Tj
+0.00 -107.56 TD
+(Q38WEA4Y   "WE TIME DIARY - YEAR COMPLETED 07"                   NUM\(4.0\)) Tj
+0.00 509.92 TD
+/F0 10.00 Tf
+(A4. On what date did you fill out the time diary? -- WEEKDAY YEAR) Tj
+0.00 -107.56 TD
+(A4. On what date did you fill out the time diary? -- WEEKEND MONTH) Tj
+0.00 -305.56 TD
+(A4. On what date did you fill out the time diary? -- WEEKEND DAY) Tj
+0.00 -107.56 TD
+(A4. On what date did you fill out the time diary? -- WEEKEND YEAR) Tj
+106.52 489.16 TD
+(2,007 - 2,008) Tj
+48.00 -18.00 TD
+(9,999) Tj
+24.00 -18.00 TD
+(0) Tj
+0.00 -71.56 TD
+(1) Tj
+0.00 -18.00 TD
+(2) Tj
+0.00 -18.00 TD
+(3) Tj
+0.00 -18.00 TD
+(4) Tj
+0.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(6) Tj
+0.00 -18.00 TD
+(7) Tj
+0.00 -18.00 TD
+(8) Tj
+0.00 -18.00 TD
+(9) Tj
+-6.00 -18.00 TD
+(10) Tj
+0.00 -18.00 TD
+(11) Tj
+0.00 -18.00 TD
+(12) Tj
+0.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+-30.00 -71.56 TD
+(1 - 31) Tj
+24.00 -18.00 TD
+(99) Tj
+6.00 -18.00 TD
+(0) Tj
+-72.00 -71.56 TD
+(2,007 - 2,008) Tj
+48.00 -18.00 TD
+(9,999) Tj
+24.00 -18.00 TD
+(0) Tj
+15.00 556.68 TD
+(Year) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WD=5\)) Tj
+0.00 -71.56 TD
+(January) Tj
+0.00 -18.00 TD
+(February) Tj
+0.00 -18.00 TD
+(March) Tj
+0.00 -18.00 TD
+(April) Tj
+0.00 -18.00 TD
+(May) Tj
+0.00 -18.00 TD
+(June) Tj
+0.00 -18.00 TD
+(July) Tj
+0.00 -18.00 TD
+(August) Tj
+0.00 -18.00 TD
+(September) Tj
+0.00 -18.00 TD
+(October) Tj
+0.00 -18.00 TD
+(November) Tj
+0.00 -18.00 TD
+(December) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekday diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Day) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+0.00 -71.56 TD
+(Year) Tj
+0.00 -18.00 TD
+(NA; refused) Tj
+0.00 -18.00 TD
+(Inap.:  weekend diary not returned \(Q38_WE=5\)) Tj
+-178.52 556.68 TD
+(1,352) Tj
+18.00 -18.00 TD
+(83) Tj
+6.00 -18.00 TD
+(7) Tj
+-12.00 -71.56 TD
+(199) Tj
+0.00 -18.00 TD
+(150) Tj
+0.00 -18.00 TD
+(107) Tj
+6.00 -18.00 TD
+(31) Tj
+6.00 -18.00 TD
+(5) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(2) Tj
+-12.00 -18.00 TD
+(360) Tj
+0.00 -18.00 TD
+(336) Tj
+0.00 -18.00 TD
+(158) Tj
+6.00 -18.00 TD
+(83) Tj
+0.00 -18.00 TD
+(11) Tj
+-18.00 -71.56 TD
+(1,348) Tj
+18.00 -18.00 TD
+(83) Tj
+0.00 -18.00 TD
+(11) Tj
+-18.00 -71.56 TD
+(1,348) Tj
+18.00 -18.00 TD
+(83) Tj
+0.00 -18.00 TD
+(11) Tj
+27.00 556.68 TD
+(93.76) Tj
+6.00 -18.00 TD
+(5.76) Tj
+6.00 -18.00 TD
+(.49) Tj
+-12.00 -71.56 TD
+(13.80) Tj
+0.00 -18.00 TD
+(10.40) Tj
+6.00 -18.00 TD
+(7.42) Tj
+0.00 -18.00 TD
+(2.15) Tj
+6.00 -18.00 TD
+(.35) Tj
+12.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+0.00 -18.00 TD
+(-) Tj
+-12.00 -18.00 TD
+(.14) Tj
+-12.00 -18.00 TD
+(24.97) Tj
+0.00 -18.00 TD
+(23.30) Tj
+0.00 -18.00 TD
+(10.96) Tj
+6.00 -18.00 TD
+(5.76) Tj
+6.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(93.48) Tj
+6.00 -18.00 TD
+(5.76) Tj
+6.00 -18.00 TD
+(.76) Tj
+-12.00 -71.56 TD
+(93.48) Tj
+6.00 -18.00 TD
+(5.76) Tj
+6.00 -18.00 TD
+(.76) Tj
+ET
+36.00 657.44 540.00 18.00 re S
+36.00 549.88 540.00 18.00 re S
+36.00 244.32 540.00 18.00 re S
+36.00 136.76 540.00 18.00 re S
+BT
+39.00 663.16 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 661.16 m 81.00 661.16 l B*
+BT
+39.00 555.60 TD
+(  Count) Tj
+ET
+39.00 553.60 m 81.00 553.60 l B*
+BT
+39.00 250.04 TD
+(  Count) Tj
+ET
+39.00 248.04 m 81.00 248.04 l B*
+BT
+39.00 142.48 TD
+(  Count) Tj
+ET
+39.00 140.48 m 81.00 140.48 l B*
+BT
+90.00 663.16 TD
+(     %) Tj
+ET
+90.00 661.16 m 126.00 661.16 l B*
+BT
+90.00 555.60 TD
+(     %) Tj
+ET
+90.00 553.60 m 126.00 553.60 l B*
+BT
+90.00 250.04 TD
+(     %) Tj
+ET
+90.00 248.04 m 126.00 248.04 l B*
+BT
+90.00 142.48 TD
+(     %) Tj
+ET
+90.00 140.48 m 126.00 140.48 l B*
+BT
+136.52 663.16 TD
+(   Value/Range) Tj
+ET
+136.52 661.16 m 220.52 661.16 l B*
+BT
+136.52 555.60 TD
+(   Value/Range) Tj
+ET
+136.52 553.60 m 220.52 553.60 l B*
+BT
+136.52 250.04 TD
+(   Value/Range) Tj
+ET
+136.52 248.04 m 220.52 248.04 l B*
+BT
+136.52 142.48 TD
+(   Value/Range) Tj
+ET
+136.52 140.48 m 220.52 140.48 l B*
+BT
+229.52 663.16 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 661.16 m 571.52 661.16 l B*
+BT
+229.52 555.60 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 553.60 m 571.52 553.60 l B*
+BT
+229.52 250.04 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 248.04 m 571.52 248.04 l B*
+BT
+229.52 142.48 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 140.48 m 571.52 140.48 l B*
+endstream
+endobj
+43 0 obj
+5231
+endobj
+41 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R >> >>
+/Contents 42 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/Dests 44 0 R
+/PageMode /UseOutlines
+/Outlines 45 0 R
+>>
+endobj
+44 0 obj
+<<
+/#133 [6 0 R /XYZ 0 522.12 0]
+/bm1636 [12 0 R /XYZ 0 720.12 0]
+/1 [12 0 R /XYZ 0 711.12 0]
+/2 [12 0 R /XYZ 0 648.12 0]
+/3 [12 0 R /XYZ 0 550.24 0]
+/4 [12 0 R /XYZ 0 444.72 0]
+/5 [12 0 R /XYZ 0 355.16 0]
+/6 [12 0 R /XYZ 0 265.60 0]
+/7 [17 0 R /XYZ 0 711.12 0]
+/8 [17 0 R /XYZ 0 585.56 0]
+/9 [17 0 R /XYZ 0 280.00 0]
+/10 [17 0 R /XYZ 0 172.44 0]
+/11 [20 0 R /XYZ 0 693.12 0]
+/12 [20 0 R /XYZ 0 387.56 0]
+/13 [20 0 R /XYZ 0 280.00 0]
+/14 [20 0 R /XYZ 0 172.44 0]
+/15 [23 0 R /XYZ 0 675.12 0]
+/16 [23 0 R /XYZ 0 549.56 0]
+/17 [23 0 R /XYZ 0 424.00 0]
+/18 [23 0 R /XYZ 0 298.44 0]
+/19 [23 0 R /XYZ 0 172.88 0]
+/20 [26 0 R /XYZ 0 675.12 0]
+/21 [26 0 R /XYZ 0 549.56 0]
+/22 [26 0 R /XYZ 0 424.00 0]
+/23 [26 0 R /XYZ 0 298.44 0]
+/24 [26 0 R /XYZ 0 172.88 0]
+/25 [29 0 R /XYZ 0 675.12 0]
+/26 [29 0 R /XYZ 0 549.56 0]
+/27 [29 0 R /XYZ 0 424.00 0]
+/28 [29 0 R /XYZ 0 298.44 0]
+/29 [32 0 R /XYZ 0 711.12 0]
+/30 [32 0 R /XYZ 0 495.56 0]
+/31 [32 0 R /XYZ 0 388.00 0]
+/32 [32 0 R /XYZ 0 280.44 0]
+/33 [35 0 R /XYZ 0 603.12 0]
+/34 [35 0 R /XYZ 0 495.56 0]
+/35 [35 0 R /XYZ 0 388.00 0]
+/36 [38 0 R /XYZ 0 711.12 0]
+/37 [38 0 R /XYZ 0 603.56 0]
+/38 [38 0 R /XYZ 0 496.00 0]
+/39 [38 0 R /XYZ 0 190.44 0]
+/40 [41 0 R /XYZ 0 711.12 0]
+/41 [41 0 R /XYZ 0 603.56 0]
+/42 [41 0 R /XYZ 0 298.00 0]
+/43 [41 0 R /XYZ 0 190.44 0]
+>>
+endobj
+45 0 obj
+<<
+/Count 44
+/First 46 0 R
+/Last 46 0 R
+>>
+endobj
+46 0 obj
+<<
+/Title (TD_FOLLOW07)
+/A <</S /GoTo /D /bm1636>>
+/Parent 45 0 R
+/First 47 0 R
+/Last 89 0 R
+/Count 43
+>>
+endobj
+47 0 obj
+<<
+/Title (TDFREL07   "TIME DIARY FOLLOWUP RELEASE NUMBER 07")
+/A <</S /GoTo /D /1>>
+/Parent 46 0 R
+/Next 48 0 R
+>>
+endobj
+48 0 obj
+<<
+/Title (TDFOID07   "2007 INTERVIEW NUMBER")
+/A <</S /GoTo /D /2>>
+/Parent 46 0 R
+/Prev 47 0 R
+/Next 49 0 R
+>>
+endobj
+49 0 obj
+<<
+/Title (TDFOSN07   "CYPSN 2007")
+/A <</S /GoTo /D /3>>
+/Parent 46 0 R
+/Prev 48 0 R
+/Next 50 0 R
+>>
+endobj
+50 0 obj
+<<
+/Title (Q38_WD     "WEEKDAY DIARY RETURNED 07")
+/A <</S /GoTo /D /4>>
+/Parent 46 0 R
+/Prev 49 0 R
+/Next 51 0 R
+>>
+endobj
+51 0 obj
+<<
+/Title (Q38_WE     "WEEKEND DIARY RETURNED 07")
+/A <</S /GoTo /D /5>>
+/Parent 46 0 R
+/Prev 50 0 R
+/Next 52 0 R
+>>
+endobj
+52 0 obj
+<<
+/Title (Q38WDDAY   "TARGET DAY OF THE WEEKDAY DIARY 07")
+/A <</S /GoTo /D /6>>
+/Parent 46 0 R
+/Prev 51 0 R
+/Next 53 0 R
+>>
+endobj
+53 0 obj
+<<
+/Title (Q38WEDAY   "TARGET DAY OF THE WEEKEND DIARY 07")
+/A <</S /GoTo /D /7>>
+/Parent 46 0 R
+/Prev 52 0 R
+/Next 54 0 R
+>>
+endobj
+54 0 obj
+<<
+/Title (Q38WDIWM   "WEEKDAY INTERVIEW - MONTH IW REVIEWED 07")
+/A <</S /GoTo /D /8>>
+/Parent 46 0 R
+/Prev 53 0 R
+/Next 55 0 R
+>>
+endobj
+55 0 obj
+<<
+/Title (Q38WDIWD   "WEEKDAY INTERVIEW - DAY IW REVIEWED 07")
+/A <</S /GoTo /D /9>>
+/Parent 46 0 R
+/Prev 54 0 R
+/Next 56 0 R
+>>
+endobj
+56 0 obj
+<<
+/Title (Q38WDIWY   "WEEKDAY INTERVIEW - YEAR IW REVIEWED 07")
+/A <</S /GoTo /D /10>>
+/Parent 46 0 R
+/Prev 55 0 R
+/Next 57 0 R
+>>
+endobj
+57 0 obj
+<<
+/Title (Q38WEIWM   "WEEKEND INTERVIEW - MONTH IW REVIEWED 07")
+/A <</S /GoTo /D /11>>
+/Parent 46 0 R
+/Prev 56 0 R
+/Next 58 0 R
+>>
+endobj
+58 0 obj
+<<
+/Title (Q38WEIWD   "WEEKEND INTERVIEW - DAY IW REVIEWED 07")
+/A <</S /GoTo /D /12>>
+/Parent 46 0 R
+/Prev 57 0 R
+/Next 59 0 R
+>>
+endobj
+59 0 obj
+<<
+/Title (Q38WEIWY   "WEEKEND INTERVIEW - YEAR IW REVIEWED 07")
+/A <</S /GoTo /D /13>>
+/Parent 46 0 R
+/Prev 58 0 R
+/Next 60 0 R
+>>
+endobj
+60 0 obj
+<<
+/Title (Q38WDSAQ   "WEEKDAY DIARY SELF-ADMINISTERED 07")
+/A <</S /GoTo /D /14>>
+/Parent 46 0 R
+/Prev 59 0 R
+/Next 61 0 R
+>>
+endobj
+61 0 obj
+<<
+/Title (Q38WESAQ   "WEEKEND DIARY SELF-ADMINISTERED 07")
+/A <</S /GoTo /D /15>>
+/Parent 46 0 R
+/Prev 60 0 R
+/Next 62 0 R
+>>
+endobj
+62 0 obj
+<<
+/Title (Q38WDFTF   "WEEKDAY DIARY REVIEWED FACE-TO-FACE 07")
+/A <</S /GoTo /D /16>>
+/Parent 46 0 R
+/Prev 61 0 R
+/Next 63 0 R
+>>
+endobj
+63 0 obj
+<<
+/Title (Q38WEFTF   "WEEKEND DIARY REVIEWED FACE-TO-FACE 07")
+/A <</S /GoTo /D /17>>
+/Parent 46 0 R
+/Prev 62 0 R
+/Next 64 0 R
+>>
+endobj
+64 0 obj
+<<
+/Title (Q38WDTEL   "WEEKDAY DIARY REVIEWED BY PHONE 07")
+/A <</S /GoTo /D /18>>
+/Parent 46 0 R
+/Prev 63 0 R
+/Next 65 0 R
+>>
+endobj
+65 0 obj
+<<
+/Title (Q38WETEL   "WEEKEND DIARY REVIEWED BY PHONE 07")
+/A <</S /GoTo /D /19>>
+/Parent 46 0 R
+/Prev 64 0 R
+/Next 66 0 R
+>>
+endobj
+66 0 obj
+<<
+/Title (Q38WDCH    "WEEKDAY CHILD RESPONDENT 07")
+/A <</S /GoTo /D /20>>
+/Parent 46 0 R
+/Prev 65 0 R
+/Next 67 0 R
+>>
+endobj
+67 0 obj
+<<
+/Title (Q38WECH    "WEEKEND CHILD RESPONDENT 07")
+/A <</S /GoTo /D /21>>
+/Parent 46 0 R
+/Prev 66 0 R
+/Next 68 0 R
+>>
+endobj
+68 0 obj
+<<
+/Title (Q38WDPCG   "WEEKDAY PCG RESPONDENT 07")
+/A <</S /GoTo /D /22>>
+/Parent 46 0 R
+/Prev 67 0 R
+/Next 69 0 R
+>>
+endobj
+69 0 obj
+<<
+/Title (Q38WEPCG   "WEEKEND PCG RESPONDENT 07")
+/A <</S /GoTo /D /23>>
+/Parent 46 0 R
+/Prev 68 0 R
+/Next 70 0 R
+>>
+endobj
+70 0 obj
+<<
+/Title (Q38WDOCG   "WEEKDAY OCG RESPONDENT 07")
+/A <</S /GoTo /D /24>>
+/Parent 46 0 R
+/Prev 69 0 R
+/Next 71 0 R
+>>
+endobj
+71 0 obj
+<<
+/Title (Q38WEOCG   "WEEKEND OCG RESPONDENT 07")
+/A <</S /GoTo /D /25>>
+/Parent 46 0 R
+/Prev 70 0 R
+/Next 72 0 R
+>>
+endobj
+72 0 obj
+<<
+/Title (Q38WDOTH   "WEEKDAY OTHER RESPONDENT 07")
+/A <</S /GoTo /D /26>>
+/Parent 46 0 R
+/Prev 71 0 R
+/Next 73 0 R
+>>
+endobj
+73 0 obj
+<<
+/Title (Q38WEOTH   "WEEKEND OTHER RESPONDENT 07")
+/A <</S /GoTo /D /27>>
+/Parent 46 0 R
+/Prev 72 0 R
+/Next 74 0 R
+>>
+endobj
+74 0 obj
+<<
+/Title (Q38WD_A1   "WHO COMPLETED WEEKDAY DIARY 07")
+/A <</S /GoTo /D /28>>
+/Parent 46 0 R
+/Prev 73 0 R
+/Next 75 0 R
+>>
+endobj
+75 0 obj
+<<
+/Title (Q38WE_A1   "WHO COMPLETED WEEKEND DIARY 07")
+/A <</S /GoTo /D /29>>
+/Parent 46 0 R
+/Prev 74 0 R
+/Next 76 0 R
+>>
+endobj
+76 0 obj
+<<
+/Title (Q38WD_A2   "HOW TYPICAL WAS DAY? - WEEKDAY 07")
+/A <</S /GoTo /D /30>>
+/Parent 46 0 R
+/Prev 75 0 R
+/Next 77 0 R
+>>
+endobj
+77 0 obj
+<<
+/Title (Q38WE_A2   "HOW TYPICAL WAS DAY? - WEEKEND 07")
+/A <</S /GoTo /D /31>>
+/Parent 46 0 R
+/Prev 76 0 R
+/Next 78 0 R
+>>
+endobj
+78 0 obj
+<<
+/Title (Q38WDA3M   "WD TIME DIARY - MONTH OF DIARY 07")
+/A <</S /GoTo /D /32>>
+/Parent 46 0 R
+/Prev 77 0 R
+/Next 79 0 R
+>>
+endobj
+79 0 obj
+<<
+/Title (Q38WDA3D   "WD TIME DIARY - DAY OF DIARY 07")
+/A <</S /GoTo /D /33>>
+/Parent 46 0 R
+/Prev 78 0 R
+/Next 80 0 R
+>>
+endobj
+80 0 obj
+<<
+/Title (Q38WDA3Y   "WD TIME DIARY - YEAR OF DIARY 07")
+/A <</S /GoTo /D /34>>
+/Parent 46 0 R
+/Prev 79 0 R
+/Next 81 0 R
+>>
+endobj
+81 0 obj
+<<
+/Title (Q38WEA3M   "WE TIME DIARY - MONTH OF DIARY 07")
+/A <</S /GoTo /D /35>>
+/Parent 46 0 R
+/Prev 80 0 R
+/Next 82 0 R
+>>
+endobj
+82 0 obj
+<<
+/Title (Q38WEA3D   "WE TIME DIARY - DAY OF DIARY 07")
+/A <</S /GoTo /D /36>>
+/Parent 46 0 R
+/Prev 81 0 R
+/Next 83 0 R
+>>
+endobj
+83 0 obj
+<<
+/Title (Q38WEA3Y   "WE TIME DIARY - YEAR OF DIARY 07")
+/A <</S /GoTo /D /37>>
+/Parent 46 0 R
+/Prev 82 0 R
+/Next 84 0 R
+>>
+endobj
+84 0 obj
+<<
+/Title (Q38WDA4M   "WD TIME DIARY - MONTH COMPLETED 07")
+/A <</S /GoTo /D /38>>
+/Parent 46 0 R
+/Prev 83 0 R
+/Next 85 0 R
+>>
+endobj
+85 0 obj
+<<
+/Title (Q38WDA4D   "WD TIME DIARY - DAY COMPLETED 07")
+/A <</S /GoTo /D /39>>
+/Parent 46 0 R
+/Prev 84 0 R
+/Next 86 0 R
+>>
+endobj
+86 0 obj
+<<
+/Title (Q38WDA4Y   "WD TIME DIARY - YEAR COMPLETED 07")
+/A <</S /GoTo /D /40>>
+/Parent 46 0 R
+/Prev 85 0 R
+/Next 87 0 R
+>>
+endobj
+87 0 obj
+<<
+/Title (Q38WEA4M   "WE TIME DIARY - MONTH COMPLETED 07")
+/A <</S /GoTo /D /41>>
+/Parent 46 0 R
+/Prev 86 0 R
+/Next 88 0 R
+>>
+endobj
+88 0 obj
+<<
+/Title (Q38WEA4D   "WE TIME DIARY - DAY COMPLETED 07")
+/A <</S /GoTo /D /42>>
+/Parent 46 0 R
+/Prev 87 0 R
+/Next 89 0 R
+>>
+endobj
+89 0 obj
+<<
+/Title (Q38WEA4Y   "WE TIME DIARY - YEAR COMPLETED 07")
+/A <</S /GoTo /D /43>>
+/Parent 46 0 R
+/Prev 88 0 R
+>>
+endobj
+4 0 obj
+[ 6 0 R 12 0 R 17 0 R 20 0 R 23 0 R 26 0 R 29 0 R 32 0 R 35 0 R 38 0 R 41 0 R ]
+endobj
+5 0 obj
+11
+endobj
+xref
+0 90
+0000000000 65535 f
+0000000010 00000 n
+0000057197 00000 n
+0000000178 00000 n
+0000065272 00000 n
+0000065370 00000 n
+0000001187 00000 n
+0000000244 00000 n
+0000000820 00000 n
+0000000842 00000 n
+0000000954 00000 n
+0000001070 00000 n
+0000007344 00000 n
+0000001391 00000 n
+0000007081 00000 n
+0000007105 00000 n
+0000007223 00000 n
+0000012650 00000 n
+0000007550 00000 n
+0000012626 00000 n
+0000018006 00000 n
+0000012845 00000 n
+0000017982 00000 n
+0000023699 00000 n
+0000018201 00000 n
+0000023675 00000 n
+0000029398 00000 n
+0000023894 00000 n
+0000029374 00000 n
+0000035048 00000 n
+0000029593 00000 n
+0000035024 00000 n
+0000040718 00000 n
+0000035243 00000 n
+0000040694 00000 n
+0000045987 00000 n
+0000040913 00000 n
+0000045963 00000 n
+0000051495 00000 n
+0000046182 00000 n
+0000051471 00000 n
+0000057002 00000 n
+0000051690 00000 n
+0000056978 00000 n
+0000057309 00000 n
+0000058681 00000 n
+0000058747 00000 n
+0000058879 00000 n
+0000059019 00000 n
+0000059157 00000 n
+0000059284 00000 n
+0000059426 00000 n
+0000059568 00000 n
+0000059719 00000 n
+0000059870 00000 n
+0000060027 00000 n
+0000060182 00000 n
+0000060339 00000 n
+0000060497 00000 n
+0000060653 00000 n
+0000060810 00000 n
+0000060962 00000 n
+0000061114 00000 n
+0000061270 00000 n
+0000061426 00000 n
+0000061578 00000 n
+0000061730 00000 n
+0000061875 00000 n
+0000062020 00000 n
+0000062163 00000 n
+0000062306 00000 n
+0000062449 00000 n
+0000062592 00000 n
+0000062737 00000 n
+0000062882 00000 n
+0000063030 00000 n
+0000063178 00000 n
+0000063329 00000 n
+0000063480 00000 n
+0000063631 00000 n
+0000063780 00000 n
+0000063930 00000 n
+0000064081 00000 n
+0000064230 00000 n
+0000064380 00000 n
+0000064532 00000 n
+0000064682 00000 n
+0000064833 00000 n
+0000064985 00000 n
+0000065135 00000 n
+trailer
+<<
+/Size 90
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+65391
+%%EOF

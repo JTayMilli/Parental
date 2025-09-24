@@ -1,0 +1,995 @@
+%PDF-1.1
+1 0 obj
+<<
+/Creator (Developer 2000)
+/CreatorDate (Thu May 16  2019)
+/Author (Oracle Reports)
+/Producer (Oracle PDF driver)
+/Title (IDMAP02.pdf)
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Kids 4 0 R
+/Count 5 0 R
+>>
+endobj
+7 0 obj
+<</Length 8 0 R>>
+stream
+BT
+208.48 25.20 TD
+/F0 10.00 Tf
+(Thursday May 16 2019 2:30 PM) Tj
+56.20 433.44 TD
+/F1 20.00 Tf
+(Codebook) Tj
+ET
+1 G
+0.00 w
+0 J
+0 j
+153.00 495.00 310.52 27.00 re S
+BT
+229.16 503.64 TD
+(CDS 2002 ID Map) Tj
+ET
+270.00 260.96 67.52 13.52 re S
+q
+270.00 260.96 67.52 13.52 re W n
+BT
+299.24 263.72 TD
+/F2 12.00 Tf
+( 8) Tj
+ET
+Q 0 g 0 G
+q
+247.52 278.96 117.00 13.52 re W n
+BT
+250.56 281.48 TD
+/F1 12.00 Tf
+(Number of Variables ) Tj
+ET
+Q 0 g 0 G
+endstream
+endobj
+8 0 obj
+469
+endobj
+9 0 obj
+<</Type /Font
+/Name /F0
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+>>
+endobj
+10 0 obj
+<</Type /Font
+/Name /F1
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+>>
+endobj
+11 0 obj
+<</Type /Font
+/Name /F2
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+>>
+endobj
+6 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F0 9 0 R /F1 10 0 R /F2 11 0 R >> >>
+/Contents 7 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+13 0 obj
+<</Length 14 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+261.00 747.96 TD
+/F3 10.00 Tf
+(CDS 2002 ID Map) Tj
+18.60 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(2) Tj
+( of ) Tj
+(5) Tj
+ -243.60 676.32 TD
+/F3 10.00 Tf
+(CHLDID02   "CHILD 2001 PSID FAMILY IW \(ID\) NUMBER"               NUM\(5.0\)) Tj
+0.00 -111.28 TD
+(CHLDSN02   "CHILD 2001 INDIVIDUAL SEQUENCE NUMBER"               NUM\(2.0\)) Tj
+0.00 -174.76 TD
+(PCGID02    "PCG 2001 PSID FAMILY IW \(ID\) NUMBER"                 NUM\(5.0\)) Tj
+0.00 -126.80 TD
+(PCGSN02    "PCG 2001 INDIVIDUAL SEQUENCE NUMBER"                 NUM\(2.0\)) Tj
+0.00 399.60 TD
+/F0 10.00 Tf
+(Child 2001 PSID Main Family Identifier) Tj
+0.00 -108.84 TD
+(Child 2001 PSID Sequence Number) Tj
+0.00 -174.76 TD
+(Primary Caregiver PSID 2001 Interview Number) Tj
+0.00 -126.80 TD
+(Primary Caregiver 2001 PSID Individual Sequence Number) Tj
+130.52 341.64 TD
+(1 - 7,443) Tj
+18.00 -141.56 TD
+(1 - 20) Tj
+-6.00 -25.60 TD
+(51 - 59) Tj
+-12.00 -116.44 TD
+(1 - 7,443) Tj
+48.00 -18.00 TD
+(0) Tj
+-30.00 -108.80 TD
+(1 - 20) Tj
+24.00 -25.60 TD
+(71) Tj
+6.00 -36.16 TD
+(0) Tj
+15.00 472.16 TD
+(Interview number) Tj
+0.00 -141.56 TD
+(Sequence number of individuals in the PSID family at the) Tj
+0.00 -10.56 TD
+(time of the 2001 main family interview) Tj
+0.00 -15.04 TD
+(Individuals in institutions at the time of the 2001) Tj
+0.00 -10.56 TD
+(interview) Tj
+0.00 -105.88 TD
+(Interview number) Tj
+0.00 -18.00 TD
+(PCG was not in PSID 2001 interview family) Tj
+0.00 -108.80 TD
+(Sequence number of individuals in the PSID family at the) Tj
+0.00 -10.56 TD
+(time of the 2001 main family interview) Tj
+0.00 -15.04 TD
+(Sequence number of individuals who moved out of the FU or) Tj
+0.00 -10.56 TD
+(out of institutions and established their own households) Tj
+0.00 -10.56 TD
+(at the time of the PSID 2001 interview) Tj
+0.00 -15.04 TD
+(PCG was not in PSID 2001 interview family) Tj
+-193.52 516.00 TD
+/F4 10.00 Tf
+(The values for this variable represent the 2001 interview number of the family in which) Tj
+0.00 -10.92 TD
+(this individual was included in 2001. Values may not be contiguous.) Tj
+0.00 -97.88 TD
+(This sequence number variable provides a means of identifying an individual's status with) Tj
+0.00 -10.92 TD
+(regard to the family unit at the time of the PSID main family 2001 interview. Sequence) Tj
+0.00 -10.92 TD
+(numbers in the 51-59 range denote followable individuals who were in an institution at the) Tj
+0.00 -10.92 TD
+(time of the 2001 interview. It is possible for such people to have left that institution) Tj
+0.00 -10.92 TD
+(by the time of the CDS interview.) Tj
+0.00 -131.12 TD
+(The values for this variable represent the PSID 2001 interview number of the family in) Tj
+0.00 -10.88 TD
+(which this individual was included. Values may not be contiguous.) Tj
+0.00 -115.92 TD
+(This sequence number variable provides a means of identifying an individual's status with) Tj
+0.00 -10.92 TD
+(regard to the family unit at the time of the PSID main family 2001 interview.) Tj
+15.00 377.48 TD
+/F0 10.00 Tf
+(2,891) Tj
+0.00 -141.56 TD
+(2,890) Tj
+24.00 -25.60 TD
+(1) Tj
+-24.00 -116.44 TD
+(2,867) Tj
+18.00 -18.00 TD
+(24) Tj
+-18.00 -108.80 TD
+(2,866) Tj
+24.00 -25.60 TD
+(1) Tj
+-6.00 -36.16 TD
+(24) Tj
+21.00 472.16 TD
+(100.00) Tj
+6.00 -141.56 TD
+(99.97) Tj
+12.00 -25.60 TD
+(.03) Tj
+-12.00 -116.44 TD
+(99.17) Tj
+12.00 -18.00 TD
+(.83) Tj
+-12.00 -108.80 TD
+(99.14) Tj
+12.00 -25.60 TD
+(.03) Tj
+0.00 -36.16 TD
+(.83) Tj
+ET
+36.00 628.76 540.00 18.00 re S
+36.00 487.20 540.00 18.00 re S
+36.00 345.16 540.00 18.00 re S
+36.00 218.36 540.00 18.00 re S
+BT
+39.00 634.44 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 632.44 m 81.00 632.44 l B*
+BT
+39.00 492.88 TD
+(  Count) Tj
+ET
+39.00 490.88 m 81.00 490.88 l B*
+BT
+39.00 350.88 TD
+(  Count) Tj
+ET
+39.00 348.88 m 81.00 348.88 l B*
+BT
+39.00 224.04 TD
+(  Count) Tj
+ET
+39.00 222.04 m 81.00 222.04 l B*
+BT
+90.00 634.44 TD
+(     %) Tj
+ET
+90.00 632.44 m 126.00 632.44 l B*
+BT
+90.00 492.88 TD
+(     %) Tj
+ET
+90.00 490.88 m 126.00 490.88 l B*
+BT
+90.00 350.88 TD
+(     %) Tj
+ET
+90.00 348.88 m 126.00 348.88 l B*
+BT
+90.00 224.04 TD
+(     %) Tj
+ET
+90.00 222.04 m 126.00 222.04 l B*
+BT
+136.52 634.44 TD
+(   Value/Range) Tj
+ET
+136.52 632.44 m 220.52 632.44 l B*
+BT
+136.52 492.88 TD
+(   Value/Range) Tj
+ET
+136.52 490.88 m 220.52 490.88 l B*
+BT
+136.52 350.88 TD
+(   Value/Range) Tj
+ET
+136.52 348.88 m 220.52 348.88 l B*
+BT
+136.52 224.04 TD
+(   Value/Range) Tj
+ET
+136.52 222.04 m 220.52 222.04 l B*
+BT
+229.52 634.44 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 632.44 m 571.52 632.44 l B*
+BT
+229.52 492.88 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 490.88 m 571.52 490.88 l B*
+BT
+229.52 350.88 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 348.88 m 571.52 348.88 l B*
+BT
+229.52 224.04 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 222.04 m 571.52 222.04 l B*
+endstream
+endobj
+14 0 obj
+5088
+endobj
+15 0 obj
+<</Type /Font
+/Name /F3
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+>>
+endobj
+16 0 obj
+<</Type /Font
+/Name /F4
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R /F4 16 0 R >> >>
+/Contents 13 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+18 0 obj
+<</Length 19 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+261.00 747.96 TD
+/F3 10.00 Tf
+(CDS 2002 ID Map) Tj
+18.60 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(3) Tj
+( of ) Tj
+(5) Tj
+-243.60 665.28 TD
+/F3 10.00 Tf
+(CDSHID02   "CDS 2002 HOUSEHOLD INTERVIEW NUMBER"                 NUM\(4.0\)) Tj
+0.00 -89.56 TD
+(PCGINST02  "CDS 2002 HOUSEHOLD PCG INDICATOR"                    NUM\(1.0\)) Tj
+0.00 -71.56 TD
+(PCG68ID02  "PCG 1968 INTERVIEW NUMBER"                           NUM\(4.0\)) Tj
+0.00 -315.28 TD
+(PCGPN02    "PCG PERSON NUMBER"                                   NUM\(3.0\)) Tj
+0.00 465.64 TD
+/F0 10.00 Tf
+(CDS 2002 Household Interview Number) Tj
+0.00 -89.56 TD
+(Sequence number of primary caregiver) Tj
+0.00 -71.56 TD
+(PCG 1968 Interview Number \(1968 ID Number\)) Tj
+0.00 -315.32 TD
+(PCG Person Number) Tj
+130.52 426.92 TD
+(1 - 1,999) Tj
+24.00 -71.56 TD
+(1 - 2) Tj
+-24.00 -152.48 TD
+(1 - 2,930) Tj
+-24.00 -25.60 TD
+(3,001 - 3,511) Tj
+0.00 -46.72 TD
+(4,001 - 4,462) Tj
+0.00 -36.16 TD
+(5,001 - 6,872) Tj
+0.00 -25.64 TD
+(7,001 - 9,308) Tj
+42.00 -100.28 TD
+(1 - 19) Tj
+45.00 458.44 TD
+(CDS 2002 household interview number) Tj
+0.00 -71.56 TD
+(Sequence number) Tj
+0.00 -152.48 TD
+(Member of, or moved into, a family from the 1968 SRC) Tj
+0.00 -10.56 TD
+(cross-section sample) Tj
+0.00 -15.04 TD
+(Member of, or moved into, a family from the Immigrant) Tj
+0.00 -10.56 TD
+(sample added in 1997 and 1999.  Values of 3001-3441) Tj
+0.00 -10.56 TD
+(indicate families first interviewed in 1997; values of) Tj
+0.00 -10.56 TD
+(3442-3511 indicate families not interviewed until 1999.) Tj
+0.00 -15.04 TD
+(Member of, or moved into, a family from the Immigrant) Tj
+0.00 -10.56 TD
+(sample added in 2017.  Values of 4001-4462 indicate) Tj
+0.00 -10.56 TD
+(families first interviewed in 2017.) Tj
+0.00 -15.04 TD
+(Member of, or moved into, a family from the 1968 Census) Tj
+0.00 -10.56 TD
+(sample) Tj
+0.00 -15.08 TD
+(Member of, or moved into, a family from the Latino sample) Tj
+0.00 -10.52 TD
+(added in 1990 and 1992.  Values of 7001-9043 indicate) Tj
+0.00 -10.56 TD
+(families first interviewed in 1990; values of 9044-9308) Tj
+0.00 -10.56 TD
+(indicate families not interviewed until 1992.) Tj
+0.00 -68.64 TD
+(Individuals living in core sample families at the time of) Tj
+0.00 -10.56 TD
+(the 1968 interview; individuals living in Latino sample) Tj
+0.00 -10.52 TD
+(families at the time of the 1990 \(or 1992\) interview;) Tj
+0.00 -10.56 TD
+(individuals living in Immigrant sample families at the) Tj
+0.00 -10.56 TD
+(time of the 1997 \(or 1999\) or 2017 interview) Tj
+-193.52 536.16 TD
+/F4 10.00 Tf
+(Values may not be contiguous.) Tj
+0.00 -172.04 TD
+(This variable is the 1968 family ID number for the 2002 CDS PCG. The combination of this) Tj
+0.00 -10.92 TD
+(variable and Person Number \(PCGPN02\) provides unique identification for each PCG on the) Tj
+0.00 -10.92 TD
+(data file. Individuals associated with families from the Latino and Immigrant samples,) Tj
+0.00 -10.92 TD
+(added to the PSID in 1990/1992 and 1997/1999, and 2017 respectively, were assigned 1968) Tj
+0.00 -10.92 TD
+(IDs so that they, too, have unique identifiers compatible with the PSID structure for the) Tj
+0.00 -10.88 TD
+(core \(SRC and Census\) sample.) Tj
+15.00 191.08 TD
+/F0 10.00 Tf
+(2,891) Tj
+0.00 -71.56 TD
+(2,891) Tj
+0.00 -152.48 TD
+(1,577) Tj
+12.00 -25.60 TD
+(248) Tj
+12.00 -46.72 TD
+(-) Tj
+-24.00 -36.16 TD
+(1,066) Tj
+24.00 -25.64 TD
+(-) Tj
+-24.00 -100.28 TD
+(1,414) Tj
+39.00 458.44 TD
+(100.00) Tj
+0.00 -71.56 TD
+(100.00) Tj
+6.00 -152.48 TD
+(54.55) Tj
+6.00 -25.60 TD
+(8.58) Tj
+18.00 -46.72 TD
+(-) Tj
+-24.00 -36.16 TD
+(36.87) Tj
+24.00 -25.64 TD
+(-) Tj
+-24.00 -100.28 TD
+(48.91) Tj
+ET
+36.00 639.44 540.00 18.00 re S
+36.00 567.88 540.00 18.00 re S
+36.00 415.40 540.00 18.00 re S
+36.00 181.00 540.00 18.00 re S
+BT
+39.00 645.16 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 643.16 m 81.00 643.16 l B*
+BT
+39.00 573.60 TD
+(  Count) Tj
+ET
+39.00 571.60 m 81.00 571.60 l B*
+BT
+39.00 421.12 TD
+(  Count) Tj
+ET
+39.00 419.12 m 81.00 419.12 l B*
+BT
+39.00 186.72 TD
+(  Count) Tj
+ET
+39.00 184.72 m 81.00 184.72 l B*
+BT
+90.00 645.16 TD
+(     %) Tj
+ET
+90.00 643.16 m 126.00 643.16 l B*
+BT
+90.00 573.60 TD
+(     %) Tj
+ET
+90.00 571.60 m 126.00 571.60 l B*
+BT
+90.00 421.12 TD
+(     %) Tj
+ET
+90.00 419.12 m 126.00 419.12 l B*
+BT
+90.00 186.72 TD
+(     %) Tj
+ET
+90.00 184.72 m 126.00 184.72 l B*
+BT
+136.52 645.16 TD
+(   Value/Range) Tj
+ET
+136.52 643.16 m 220.52 643.16 l B*
+BT
+136.52 573.60 TD
+(   Value/Range) Tj
+ET
+136.52 571.60 m 220.52 571.60 l B*
+BT
+136.52 421.12 TD
+(   Value/Range) Tj
+ET
+136.52 419.12 m 220.52 419.12 l B*
+BT
+136.52 186.72 TD
+(   Value/Range) Tj
+ET
+136.52 184.72 m 220.52 184.72 l B*
+BT
+229.52 645.16 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 643.16 m 571.52 643.16 l B*
+BT
+229.52 573.60 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 571.60 m 571.52 571.60 l B*
+BT
+229.52 421.12 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 419.12 m 571.52 419.12 l B*
+BT
+229.52 186.72 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 184.72 m 571.52 184.72 l B*
+endstream
+endobj
+19 0 obj
+5334
+endobj
+17 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R /F4 16 0 R >> >>
+/Contents 18 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+21 0 obj
+<</Length 22 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+261.00 747.96 TD
+/F3 10.00 Tf
+(CDS 2002 ID Map) Tj
+18.60 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(4) Tj
+( of ) Tj
+(5) Tj
+-71.08 676.56 TD
+/F0 10.00 Tf
+(20) Tj
+-30.00 -67.84 TD
+(21 - 26) Tj
+-6.00 -88.92 TD
+(30 - 169) Tj
+-6.00 -57.28 TD
+(170 - 226) Tj
+36.00 -141.72 TD
+(227) Tj
+0.00 -78.40 TD
+(228) Tj
+27.00 434.16 TD
+(Husband of a core sample 1968 Head living in an) Tj
+0.00 -10.56 TD
+(institution at the time of the 1968 interview; spouse of) Tj
+0.00 -10.56 TD
+(a Latino sample 1990 Head living in an institution at the) Tj
+0.00 -10.56 TD
+(time of the 1990 interview; spouse of an Immigrant sample) Tj
+0.00 -10.52 TD
+(1997/1999 or 2017 Head living in an institution at the) Tj
+0.00 -10.56 TD
+(time of the 1997/1999 or 2017 interview) Tj
+0.00 -15.08 TD
+(Children or stepchildren of a 1968 core sample Head who) Tj
+0.00 -10.56 TD
+(were under 25 and living in institutions at the time of) Tj
+0.00 -10.56 TD
+(the 1968 interview; children of a Latino sample 1990 \(or) Tj
+0.00 -10.52 TD
+(1992\) Head who were under 25 and living in institutions) Tj
+0.00 -10.56 TD
+(at the time of the 1990 \(or 1992\) interview; children of) Tj
+0.00 -10.56 TD
+(an Immigrant sample 1997 \(or 1999\) or 2017 Head who were) Tj
+0.00 -10.56 TD
+(under 25 and living in institutions at the time of the) Tj
+0.00 -10.56 TD
+(1997 \(or 1999\) or 2017 interview) Tj
+0.00 -15.04 TD
+(Individuals born into the core sample since the 1968) Tj
+0.00 -10.56 TD
+(interview, the Latino sample since the 1990 \(or 1992\)) Tj
+0.00 -10.56 TD
+(interview, or the Immigrant sample since the 1997 \(or) Tj
+0.00 -10.56 TD
+(1999\) or 2017 interview and who have at least one sample) Tj
+0.00 -10.56 TD
+(parent; these persons are sample members) Tj
+0.00 -15.04 TD
+(Individuals who moved into a core family for the first) Tj
+0.00 -10.56 TD
+(time after the 1968 interview or who have no sample) Tj
+0.00 -10.56 TD
+(parent; individuals from the Latino sample, other than) Tj
+0.00 -10.56 TD
+(the spouse of a 1990 \(or 1992\) Head, who moved out in the) Tj
+0.00 -10.56 TD
+(year preceding the 1990 \(or 1992\) interview or who moved) Tj
+0.00 -10.56 TD
+(in for the first time after the 1990 \(or 1992\) interview;) Tj
+0.00 -10.56 TD
+(individuals from the Immigrant sample, other than the) Tj
+0.00 -10.56 TD
+(spouse of a 1997 \(or 1999\) Head, who moved out in the) Tj
+0.00 -10.52 TD
+(year preceding the 1997 \(or 1999\) interview or who moved) Tj
+0.00 -10.56 TD
+(in for the first time after the 1997 \(or 1999\) interview.) Tj
+0.00 -10.56 TD
+(These individuals are nonsample unless they were born) Tj
+0.00 -10.56 TD
+(after the initial wave and have at least one sample) Tj
+0.00 -10.56 TD
+(parent.) Tj
+0.00 -15.04 TD
+(Spouse of a core sample 1968 Head who moved out in the) Tj
+0.00 -10.56 TD
+(year prior to the 1968 interview; spouse of a Latino) Tj
+0.00 -10.56 TD
+(sample 1990 Head who moved out in the year preceding the) Tj
+0.00 -10.56 TD
+(1990 \(or 1992\) interview; spouse of an Immigrant sample) Tj
+0.00 -10.56 TD
+(1997 \(or 1999\) Head who moved out in the year preceding) Tj
+0.00 -10.56 TD
+(the 1997 \(or 1999\) interview. These individuals are) Tj
+0.00 -10.56 TD
+(nonsample.) Tj
+0.00 -15.04 TD
+(Spouse of a core sample 1968 Head who died in the year) Tj
+0.00 -10.56 TD
+(prior to the 1968 interview; spouse of a Latino sample) Tj
+0.00 -10.56 TD
+(1990 \(or 1992\) Head in the year prior to the 1990 \(or) Tj
+0.00 -10.56 TD
+(1992\) interview; spouse of an Immmigrant Latino sample) Tj
+0.00 -10.56 TD
+(1997 \(or 1999\) Head in the year prior to the 1997 \(or) Tj
+0.00 -10.56 TD
+(1999\) interview. These individuals are nonsample.) Tj
+-154.52 486.96 TD
+(-) Tj
+0.00 -67.84 TD
+(5) Tj
+-12.00 -88.92 TD
+(436) Tj
+-12.00 -57.28 TD
+(1,030) Tj
+24.00 -141.72 TD
+(-) Tj
+0.00 -78.40 TD
+(-) Tj
+45.00 434.16 TD
+(-) Tj
+-12.00 -67.84 TD
+(.17) Tj
+-12.00 -88.92 TD
+(15.08) Tj
+0.00 -57.28 TD
+(35.63) Tj
+24.00 -141.72 TD
+(-) Tj
+0.00 -78.40 TD
+(-) Tj
+ET
+endstream
+endobj
+22 0 obj
+4065
+endobj
+20 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R >> >>
+/Contents 21 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+24 0 obj
+<</Length 25 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+261.00 747.96 TD
+/F3 10.00 Tf
+(CDS 2002 ID Map) Tj
+18.60 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(5) Tj
+( of ) Tj
+(5) Tj
+-113.08 676.56 TD
+/F0 10.00 Tf
+(229 - 399) Tj
+0.00 -152.28 TD
+(900 - 950) Tj
+63.00 152.28 TD
+(Individuals who moved into a core family for the first) Tj
+0.00 -10.56 TD
+(time after the 1968 interview or who have no sample) Tj
+0.00 -10.56 TD
+(parent; individuals from the Latino sample, other than) Tj
+0.00 -10.56 TD
+(the spouse of a 1990 \(or 1992\) Head, who moved out in the) Tj
+0.00 -10.52 TD
+(year preceding the 1990 \(or 1992\) interview or who moved) Tj
+0.00 -10.56 TD
+(in for the first time after the 1990 \(or 1992\) interview;) Tj
+0.00 -10.56 TD
+(individuals from the Immigrant sample, other than the) Tj
+0.00 -10.56 TD
+(spouse of a 1997 \(or 1999\) Head, who moved out in the) Tj
+0.00 -10.56 TD
+(year preceding the 1997 \(or 1999\) interview or who moved) Tj
+0.00 -10.56 TD
+(in for the first time after the 1997 \(or 1999\) interview.) Tj
+0.00 -10.56 TD
+(These individuals are nonsample unless they were born) Tj
+0.00 -10.56 TD
+(after the initial wave and have at least one sample) Tj
+0.00 -10.56 TD
+(parent.  This series is simply a continuation of the 170-) Tj
+0.00 -10.52 TD
+(226 group.) Tj
+0.00 -15.08 TD
+(PCG's identity is known but PCG has never been in a) Tj
+0.00 -10.56 TD
+(responding panel family) Tj
+-154.52 162.84 TD
+(-) Tj
+0.00 -152.28 TD
+(6) Tj
+45.00 152.28 TD
+(-) Tj
+-12.00 -152.28 TD
+(.21) Tj
+ET
+endstream
+endobj
+25 0 obj
+1549
+endobj
+23 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R >> >>
+/Contents 24 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/Dests 26 0 R
+/PageMode /UseOutlines
+/Outlines 27 0 R
+>>
+endobj
+26 0 obj
+<<
+/#233 [6 0 R /XYZ 0 522.12 0]
+/bm1556 [12 0 R /XYZ 0 720.12 0]
+/1 [12 0 R /XYZ 0 711.12 0]
+/2 [12 0 R /XYZ 0 610.88 0]
+/3 [12 0 R /XYZ 0 436.08 0]
+/4 [12 0 R /XYZ 0 309.28 0]
+/5 [17 0 R /XYZ 0 711.12 0]
+/6 [17 0 R /XYZ 0 621.56 0]
+/7 [17 0 R /XYZ 0 550.00 0]
+/8 [17 0 R /XYZ 0 234.68 0]
+>>
+endobj
+27 0 obj
+<<
+/Count 9
+/First 28 0 R
+/Last 28 0 R
+>>
+endobj
+28 0 obj
+<<
+/Title (IDMAP02)
+/A <</S /GoTo /D /bm1556>>
+/Parent 27 0 R
+/First 29 0 R
+/Last 36 0 R
+/Count 8
+>>
+endobj
+29 0 obj
+<<
+/Title (CHLDID02   "CHILD 2001 PSID FAMILY IW \(ID\) NUMBER")
+/A <</S /GoTo /D /1>>
+/Parent 28 0 R
+/Next 30 0 R
+>>
+endobj
+30 0 obj
+<<
+/Title (CHLDSN02   "CHILD 2001 INDIVIDUAL SEQUENCE NUMBER")
+/A <</S /GoTo /D /2>>
+/Parent 28 0 R
+/Prev 29 0 R
+/Next 31 0 R
+>>
+endobj
+31 0 obj
+<<
+/Title (PCGID02    "PCG 2001 PSID FAMILY IW \(ID\) NUMBER")
+/A <</S /GoTo /D /3>>
+/Parent 28 0 R
+/Prev 30 0 R
+/Next 32 0 R
+>>
+endobj
+32 0 obj
+<<
+/Title (PCGSN02    "PCG 2001 INDIVIDUAL SEQUENCE NUMBER")
+/A <</S /GoTo /D /4>>
+/Parent 28 0 R
+/Prev 31 0 R
+/Next 33 0 R
+>>
+endobj
+33 0 obj
+<<
+/Title (CDSHID02   "CDS 2002 HOUSEHOLD INTERVIEW NUMBER")
+/A <</S /GoTo /D /5>>
+/Parent 28 0 R
+/Prev 32 0 R
+/Next 34 0 R
+>>
+endobj
+34 0 obj
+<<
+/Title (PCGINST02  "CDS 2002 HOUSEHOLD PCG INDICATOR")
+/A <</S /GoTo /D /6>>
+/Parent 28 0 R
+/Prev 33 0 R
+/Next 35 0 R
+>>
+endobj
+35 0 obj
+<<
+/Title (PCG68ID02  "PCG 1968 INTERVIEW NUMBER")
+/A <</S /GoTo /D /7>>
+/Parent 28 0 R
+/Prev 34 0 R
+/Next 36 0 R
+>>
+endobj
+36 0 obj
+<<
+/Title (PCGPN02    "PCG PERSON NUMBER")
+/A <</S /GoTo /D /8>>
+/Parent 28 0 R
+/Prev 35 0 R
+>>
+endobj
+4 0 obj
+[ 6 0 R 12 0 R 17 0 R 20 0 R 23 0 R ]
+endobj
+5 0 obj
+5
+endobj
+xref
+0 37
+0000000000 65535 f
+0000000010 00000 n
+0000018736 00000 n
+0000000174 00000 n
+0000020528 00000 n
+0000020584 00000 n
+0000001131 00000 n
+0000000240 00000 n
+0000000764 00000 n
+0000000786 00000 n
+0000000898 00000 n
+0000001014 00000 n
+0000006743 00000 n
+0000001335 00000 n
+0000006480 00000 n
+0000006504 00000 n
+0000006622 00000 n
+0000012364 00000 n
+0000006949 00000 n
+0000012340 00000 n
+0000016716 00000 n
+0000012570 00000 n
+0000016692 00000 n
+0000018541 00000 n
+0000016911 00000 n
+0000018517 00000 n
+0000018848 00000 n
+0000019171 00000 n
+0000019236 00000 n
+0000019363 00000 n
+0000019505 00000 n
+0000019659 00000 n
+0000019813 00000 n
+0000019965 00000 n
+0000020117 00000 n
+0000020266 00000 n
+0000020408 00000 n
+trailer
+<<
+/Size 37
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+20604
+%%EOF

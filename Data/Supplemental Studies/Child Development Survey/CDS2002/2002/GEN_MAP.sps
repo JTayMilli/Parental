@@ -1,0 +1,26 @@
+
+**************************************************************************
+   Label           : Generational Map
+   Rows            : 2907
+   Columns         : 9
+   ASCII File Date : May 1, 2017
+*************************************************************************.
+
+FILE HANDLE PSID / NAME = '[PATH]\GEN_MAP.TXT' LRECL = 29 .
+DATA LIST FILE = PSID FIXED /
+      GENREL02        1 - 1         GENID01         2 - 6         GENSN01         7 - 8    
+      CH_ID68         9 - 12        CH_PN          13 - 15        OCG_ID68       16 - 19   
+      OCG_PN         20 - 22        PCG_ID68       23 - 26        PCG_PN         27 - 29   
+   .
+   EXECUTE .
+   VARIABLE LABELS 
+      GENREL02     "GENMAP FILE RELEASE NUMBER 02"              
+      GENID01      "2001 INTERVIEW NUMBER"                      
+      GENSN01      "CYPSN 2001"                                 
+      CH_ID68      "CHILD'S 68ID"                               
+      CH_PN        "CHILD'S PN"                                 
+      OCG_ID68     "OCG'S 68ID"                                 
+      OCG_PN       "OCG'S PN"                                   
+      PCG_ID68     "PCG'S 68ID"                                 
+      PCG_PN       "PCG'S PN"                                   
+   .

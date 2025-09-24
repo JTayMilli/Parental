@@ -1,0 +1,502 @@
+%PDF-1.1
+1 0 obj
+<<
+/Creator (Developer 2000)
+/CreatorDate (Wed May 01  2019)
+/Author (Oracle Reports)
+/Producer (Oracle PDF driver)
+/Title (IDMAP97.pdf)
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Kids 4 0 R
+/Count 5 0 R
+>>
+endobj
+7 0 obj
+<</Length 8 0 R>>
+stream
+BT
+208.48 25.20 TD
+/F0 10.00 Tf
+(Wednesday May 1 2019 2:29 PM) Tj
+56.20 433.44 TD
+/F1 20.00 Tf
+(Codebook) Tj
+ET
+1 G
+0.00 w
+0 J
+0 j
+153.00 495.00 310.52 27.00 re S
+BT
+229.16 503.64 TD
+(CDS 1997 ID Map) Tj
+ET
+270.00 260.96 67.52 13.52 re S
+q
+270.00 260.96 67.52 13.52 re W n
+BT
+299.24 263.72 TD
+/F2 12.00 Tf
+( 6) Tj
+ET
+Q 0 g 0 G
+q
+247.52 278.96 117.00 13.52 re W n
+BT
+250.56 281.48 TD
+/F1 12.00 Tf
+(Number of Variables ) Tj
+ET
+Q 0 g 0 G
+endstream
+endobj
+8 0 obj
+469
+endobj
+9 0 obj
+<</Type /Font
+/Name /F0
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+>>
+endobj
+10 0 obj
+<</Type /Font
+/Name /F1
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+>>
+endobj
+11 0 obj
+<</Type /Font
+/Name /F2
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+>>
+endobj
+6 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F0 9 0 R /F1 10 0 R /F2 11 0 R >> >>
+/Contents 7 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+13 0 obj
+<</Length 14 0 R>>
+stream
+1 G
+0.00 w
+0 J
+0 j
+72.00 744.96 468.00 11.04 re S
+BT
+261.00 747.96 TD
+/F3 10.00 Tf
+(CDS 1997 ID Map) Tj
+18.60 -721.32 TD
+/F0 8.00 Tf
+(Page ) Tj
+(2) Tj
+( of ) Tj
+(2) Tj
+ -243.60 676.32 TD
+/F3 10.00 Tf
+(CHILDID97  "CHILD 1997 PSID FAMILY IW \(ID\) NUMBER"               NUM\(5.0\)) Tj
+0.00 -111.28 TD
+(CHILDSN97  "CHILD 1997 INDIVIDUAL SEQUENCE NUMBER"               NUM\(2.0\)) Tj
+0.00 -116.40 TD
+(PCGID97    "PCG 1997 PSID FAMILY IW \(ID\) NUMBER"                 NUM\(5.0\)) Tj
+0.00 -108.84 TD
+(PCGSN97    "PCG 1997 INDIVIDUAL SEQUENCE NUMBER"                 NUM\(2.0\)) Tj
+0.00 -116.40 TD
+(CDSHID97   "CDS 1997 HOUSEHOLD INTERVIEW NUMBER"                 NUM\(4.0\)) Tj
+0.00 -89.56 TD
+(PCGINST97  "CDS 1997 HOUSEHOLD PCG INDICATOR"                    NUM\(1.0\)) Tj
+0.00 529.24 TD
+/F0 10.00 Tf
+(Child 1997 PSID Main Family Identifier) Tj
+0.00 -108.84 TD
+(Child 1997 PSID Sequence Number) Tj
+0.00 -116.40 TD
+(Primary Caregiver PSID 1997 Interview Number) Tj
+0.00 -108.80 TD
+(Primary Caregiver 1997 PSID Individual Sequence Number) Tj
+0.00 -116.44 TD
+(CDS 1997 Household Interview Number) Tj
+0.00 -89.56 TD
+(Household roster sequence number of primary caregiver) Tj
+124.52 471.28 TD
+(1 - 10,437) Tj
+24.00 -108.80 TD
+(1 - 20) Tj
+-24.00 -116.44 TD
+(1 - 10,437) Tj
+24.00 -108.80 TD
+(1 - 20) Tj
+-18.00 -97.16 TD
+(1 - 1,513) Tj
+24.00 -71.56 TD
+(1 - 2) Tj
+39.00 502.76 TD
+(Interview number) Tj
+0.00 -108.80 TD
+(Sequence number of individuals in the PSID family at the) Tj
+0.00 -10.56 TD
+(time of the 1997 main family interview) Tj
+0.00 -105.88 TD
+(Interview number) Tj
+0.00 -108.80 TD
+(Sequence number of individuals in the PSID family at the) Tj
+0.00 -10.56 TD
+(time of the 1997 main family interview) Tj
+0.00 -86.60 TD
+(CDS 1997 household interview number) Tj
+0.00 -71.56 TD
+(Sequence number) Tj
+-193.52 546.60 TD
+/F4 10.00 Tf
+(The values for this variable represent the 1997 interview number of the family in which) Tj
+0.00 -10.92 TD
+(this individual was included in 1997. Values may not be contiguous.) Tj
+0.00 -97.88 TD
+(This sequence number variable provides a means of identifying an individual's status with) Tj
+0.00 -10.92 TD
+(regard to the family unit at the time of the PSID main family 1997 interview.) Tj
+0.00 -105.52 TD
+(The values for this variable represent the PSID 1997 interview number of the family in) Tj
+0.00 -10.88 TD
+(which this individual was included. Values may not be contiguous.) Tj
+0.00 -97.92 TD
+(This sequence number variable provides a means of identifying an individual's status with) Tj
+0.00 -10.92 TD
+(regard to the family unit at the time of the PSID main family 1997 interview.) Tj
+0.00 -94.56 TD
+(Values may not be contiguous.) Tj
+15.00 395.68 TD
+/F0 10.00 Tf
+(2,233) Tj
+0.00 -108.80 TD
+(2,233) Tj
+0.00 -116.44 TD
+(2,233) Tj
+0.00 -108.80 TD
+(2,233) Tj
+0.00 -97.16 TD
+(2,233) Tj
+0.00 -71.56 TD
+(2,233) Tj
+39.00 502.76 TD
+(100.00) Tj
+0.00 -108.80 TD
+(100.00) Tj
+0.00 -116.44 TD
+(100.00) Tj
+0.00 -108.80 TD
+(100.00) Tj
+0.00 -97.16 TD
+(100.00) Tj
+0.00 -71.56 TD
+(100.00) Tj
+ET
+36.00 628.76 540.00 18.00 re S
+36.00 519.96 540.00 18.00 re S
+36.00 403.52 540.00 18.00 re S
+36.00 294.72 540.00 18.00 re S
+36.00 197.56 540.00 18.00 re S
+36.00 126.00 540.00 18.00 re S
+BT
+39.00 634.44 TD
+(  Count) Tj
+ET
+0 G
+0.48 w
+39.00 632.44 m 81.00 632.44 l B*
+BT
+39.00 525.64 TD
+(  Count) Tj
+ET
+39.00 523.64 m 81.00 523.64 l B*
+BT
+39.00 409.24 TD
+(  Count) Tj
+ET
+39.00 407.24 m 81.00 407.24 l B*
+BT
+39.00 300.40 TD
+(  Count) Tj
+ET
+39.00 298.40 m 81.00 298.40 l B*
+BT
+39.00 203.24 TD
+(  Count) Tj
+ET
+39.00 201.24 m 81.00 201.24 l B*
+BT
+39.00 131.68 TD
+(  Count) Tj
+ET
+39.00 129.68 m 81.00 129.68 l B*
+BT
+90.00 634.44 TD
+(     %) Tj
+ET
+90.00 632.44 m 126.00 632.44 l B*
+BT
+90.00 525.64 TD
+(     %) Tj
+ET
+90.00 523.64 m 126.00 523.64 l B*
+BT
+90.00 409.24 TD
+(     %) Tj
+ET
+90.00 407.24 m 126.00 407.24 l B*
+BT
+90.00 300.40 TD
+(     %) Tj
+ET
+90.00 298.40 m 126.00 298.40 l B*
+BT
+90.00 203.24 TD
+(     %) Tj
+ET
+90.00 201.24 m 126.00 201.24 l B*
+BT
+90.00 131.68 TD
+(     %) Tj
+ET
+90.00 129.68 m 126.00 129.68 l B*
+BT
+136.52 634.44 TD
+(   Value/Range) Tj
+ET
+136.52 632.44 m 220.52 632.44 l B*
+BT
+136.52 525.64 TD
+(   Value/Range) Tj
+ET
+136.52 523.64 m 220.52 523.64 l B*
+BT
+136.52 409.24 TD
+(   Value/Range) Tj
+ET
+136.52 407.24 m 220.52 407.24 l B*
+BT
+136.52 300.40 TD
+(   Value/Range) Tj
+ET
+136.52 298.40 m 220.52 298.40 l B*
+BT
+136.52 203.24 TD
+(   Value/Range) Tj
+ET
+136.52 201.24 m 220.52 201.24 l B*
+BT
+136.52 131.68 TD
+(   Value/Range) Tj
+ET
+136.52 129.68 m 220.52 129.68 l B*
+BT
+229.52 634.44 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 632.44 m 571.52 632.44 l B*
+BT
+229.52 525.64 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 523.64 m 571.52 523.64 l B*
+BT
+229.52 409.24 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 407.24 m 571.52 407.24 l B*
+BT
+229.52 300.40 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 298.40 m 571.52 298.40 l B*
+BT
+229.52 203.24 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 201.24 m 571.52 201.24 l B*
+BT
+229.52 131.68 TD
+(Code Value/Range Text                                    ) Tj
+ET
+229.52 129.68 m 571.52 129.68 l B*
+endstream
+endobj
+14 0 obj
+5456
+endobj
+15 0 obj
+<</Type /Font
+/Name /F3
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+>>
+endobj
+16 0 obj
+<</Type /Font
+/Name /F4
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F3 15 0 R /F0 9 0 R /F4 16 0 R >> >>
+/Contents 13 0 R
+/CropBox [0 0 612 792]
+>>
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+/Dests 17 0 R
+/PageMode /UseOutlines
+/Outlines 18 0 R
+>>
+endobj
+17 0 obj
+<<
+/#234 [6 0 R /XYZ 0 522.12 0]
+/bm1556 [12 0 R /XYZ 0 720.12 0]
+/1 [12 0 R /XYZ 0 711.12 0]
+/2 [12 0 R /XYZ 0 610.88 0]
+/3 [12 0 R /XYZ 0 494.44 0]
+/4 [12 0 R /XYZ 0 385.64 0]
+/5 [12 0 R /XYZ 0 269.20 0]
+/6 [12 0 R /XYZ 0 179.64 0]
+>>
+endobj
+18 0 obj
+<<
+/Count 7
+/First 19 0 R
+/Last 19 0 R
+>>
+endobj
+19 0 obj
+<<
+/Title (IDMAP97)
+/A <</S /GoTo /D /bm1556>>
+/Parent 18 0 R
+/First 20 0 R
+/Last 25 0 R
+/Count 6
+>>
+endobj
+20 0 obj
+<<
+/Title (CHILDID97  "CHILD 1997 PSID FAMILY IW \(ID\) NUMBER")
+/A <</S /GoTo /D /1>>
+/Parent 19 0 R
+/Next 21 0 R
+>>
+endobj
+21 0 obj
+<<
+/Title (CHILDSN97  "CHILD 1997 INDIVIDUAL SEQUENCE NUMBER")
+/A <</S /GoTo /D /2>>
+/Parent 19 0 R
+/Prev 20 0 R
+/Next 22 0 R
+>>
+endobj
+22 0 obj
+<<
+/Title (PCGID97    "PCG 1997 PSID FAMILY IW \(ID\) NUMBER")
+/A <</S /GoTo /D /3>>
+/Parent 19 0 R
+/Prev 21 0 R
+/Next 23 0 R
+>>
+endobj
+23 0 obj
+<<
+/Title (PCGSN97    "PCG 1997 INDIVIDUAL SEQUENCE NUMBER")
+/A <</S /GoTo /D /4>>
+/Parent 19 0 R
+/Prev 22 0 R
+/Next 24 0 R
+>>
+endobj
+24 0 obj
+<<
+/Title (CDSHID97   "CDS 1997 HOUSEHOLD INTERVIEW NUMBER")
+/A <</S /GoTo /D /5>>
+/Parent 19 0 R
+/Prev 23 0 R
+/Next 25 0 R
+>>
+endobj
+25 0 obj
+<<
+/Title (PCGINST97  "CDS 1997 HOUSEHOLD PCG INDICATOR")
+/A <</S /GoTo /D /6>>
+/Parent 19 0 R
+/Prev 24 0 R
+>>
+endobj
+4 0 obj
+[ 6 0 R 12 0 R ]
+endobj
+5 0 obj
+2
+endobj
+xref
+0 26
+0000000000 65535 f
+0000000010 00000 n
+0000007317 00000 n
+0000000174 00000 n
+0000008775 00000 n
+0000008810 00000 n
+0000001131 00000 n
+0000000240 00000 n
+0000000764 00000 n
+0000000786 00000 n
+0000000898 00000 n
+0000001014 00000 n
+0000007111 00000 n
+0000001335 00000 n
+0000006848 00000 n
+0000006872 00000 n
+0000006990 00000 n
+0000007429 00000 n
+0000007694 00000 n
+0000007759 00000 n
+0000007886 00000 n
+0000008028 00000 n
+0000008182 00000 n
+0000008336 00000 n
+0000008488 00000 n
+0000008640 00000 n
+trailer
+<<
+/Size 26
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+8830
+%%EOF
