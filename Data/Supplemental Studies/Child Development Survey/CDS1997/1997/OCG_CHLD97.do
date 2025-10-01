@@ -52,7 +52,7 @@ infix
       Q5A18F       126 - 126        Q5A18G       127 - 127        Q5A18H       128 - 128  
       Q5A18I       129 - 129        Q5A19A       130 - 130        Q5A19B       131 - 131  
       Q5A19C       132 - 132        Q5A20A       133 - 133        Q5A20B       134 - 134  
-using [path]\OCG_CHLD97.txt, clear 
+using OCG_CHLD97.txt, clear 
 ;
 label variable  OCGCRL97     "OCG CHILD FILE RELEASE NUMBER OCG 97" ;            
 label variable  OCGCID97     "1997 INTERVIEW NUMBER" ;                           
