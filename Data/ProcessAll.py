@@ -14,6 +14,9 @@ BASE_DATA_PATH = BASE  # Alias for compatibility with new function
 OUTROOT = os.path.join(BASE, "Processed Outputs")
 os.makedirs(OUTROOT, exist_ok=True)
 
+# CDSIND cumulative spine (1997–2021)
+CDSIND_PATH = r"C:\Users\joshu\Aussie\Monash\Parental\Data\Supplemental Studies\Child Development Survey\cdsind2021\CDSIND2021.csv"
+
 # Spine inputs
 IND_COLS_PATH = os.path.join(
     BASE, "Main Study", "Cross-year Individual 1968-2023", "ColumnsIND2023ER.csv"
@@ -39,18 +42,19 @@ MAP_SHEET = "DATA"
 
 # Required columns in the IND spine
 REQUIRED_IND = [
-    "ER30001", "ER30002",
-    "ER33401", "ER33402",  # 2019 family and sequence
-    "ER33601", "ER33602",  # 2001 family and sequence
-    "ER33801", "ER33802",  # 2005 family and sequence
-    "ER33901", "ER33902",  # 2007 family and sequence
-    "ER34301", "ER34302",  # 2015 family and sequence
+    "ER30001","ER30002",
+    "ER33401","ER33402",  # 2019 core
+    "ER33601","ER33602",  # 2001 core
+    "ER33801","ER33802",  # 2005 core
+    "ER33901","ER33902",  # 2007 core
+    "ER34301","ER34302",  # 2015 core
+    "ER33904","ER33906",  # 2007 age, birth year (time-invariant YOB)
 ]
 
 # Canonical child keys by wave
 CHILD_KEYS = {
     "1997": ("CHLDID97", "CHLDSN97"),
-    "2002": ("GENID01",  "GENSN01"),
+    "2002": ("CHLDID02", "CHLDSN02"),
     "2007": ("CHLDID07", "CHLDSN07"),
 }
 
@@ -107,6 +111,48 @@ def safe_merge(left, right, on=None, left_on=None, right_on=None, how="left", va
         return left.merge(right, on=on, left_on=left_on, right_on=right_on, how=how, validate=validate, suffixes=suffixes)
     except pd.errors.MergeError as e:
         raise RuntimeError(f"Merge failed with validate={validate}: {e}")
+def harmonize_cols(df, idcol, sncol, wave):
+    out = df.copy()
+    out = out.rename(columns={idcol: "CHILD_ID", sncol: "CHILD_SN"})
+    out["WAVE"] = wave
+    for c in ["ER30001","ER30002","YOB","AGE_IW"]:
+        if c not in out.columns:
+            out[c] = pd.NA
+    return out
+
+def load_cdsind():
+    if not os.path.exists(CDSIND_PATH):
+        print(f"CDSIND file not found at {CDSIND_PATH}; proceeding without it.")
+        return None
+    df = load_csv(CDSIND_PATH)
+    keep = [c for c in [
+        "CDSCUMID68","CDSCUMPN","CRFID97","CRSN97","CRFID07","CRSN07","CRFID02","CRSN02","CRFID01","CRSN01"
+    ] if c in df.columns]
+    return df[keep].drop_duplicates()
+
+def attach_perm_ids_from_cdsind(df, cdsind_df, wave, key_pair):
+    if cdsind_df is None:
+        return df
+    idname, snname = key_pair
+    # Choose core keys for the wave
+    if wave == "1997":
+        keys = ("CRFID97","CRSN97")
+    elif wave == "2007":
+        keys = ("CRFID07","CRSN07")
+    elif wave == "2002":
+        keys = ("CRFID01","CRSN01") if {"CRFID01","CRSN01"}.issubset(cdsind_df.columns) else None
+    else:
+        keys = None
+    if not keys:
+        return df
+    m = cdsind_df.rename(columns={keys[0]: idname, keys[1]: snname})
+    need = [idname, snname, "CDSCUMID68","CDSCUMPN"]
+    if not set(need).issubset(m.columns):
+        return df
+    m = m[need].dropna(subset=[idname, snname]).drop_duplicates([idname, snname])
+    m = m.rename(columns={"CDSCUMID68":"ER30001","CDSCUMPN":"ER30002"})
+    return safe_merge(df, m, on=[idname, snname], how="left", validate="one_to_one")
+
 
 # -----------------------------
 # Load spine, PID, and Mapfile
@@ -206,7 +252,7 @@ def build_tas_person_blocks(cds_ta=None) -> pd.DataFrame:
 # -----------------------------
 # 1997 builder
 # -----------------------------
-def build_1997(pid, tas_person, mapfile, cds_ta, ind):
+def build_1997(pid, tas_person, mapfile, cds_ta, ind, cdsind_df=None):
     outdir = os.path.join(OUTROOT, "1997"); ensure_dir(outdir)
     idname, snname = CHILD_KEYS["1997"]
 
@@ -218,14 +264,14 @@ def build_1997(pid, tas_person, mapfile, cds_ta, ind):
     pcg_hh = load_csv(os.path.join(CDS97, "PCG97_HH.csv"), required=False)
 
     # Standardize keys
-    idmap = idmap.rename(columns={"CHILDID97": idname, "CHILDSN97": snname, "PCGID97":"PCGID97", "PCGSN97":"PCGSN97"})
+    idmap = idmap.rename(columns={"CHILDID97": idname, "CHILDSN97": snname, "PCGID97": "PCGID97", "PCGSN97": "PCGSN97"})
     pcg_child = pcg_child.rename(columns={"PCGCHID97": idname, "PCGCHSN97": snname})
-    if child is not None and {"CHLDID97","CHLDSN97"}.issubset(child.columns):
+    if child is not None and {"CHLDID97", "CHLDSN97"}.issubset(child.columns):
         pass
-    elif child is not None and {"CHILDID97","CHILDSN97"}.issubset(child.columns):
+    elif child is not None and {"CHILDID97", "CHILDSN97"}.issubset(child.columns):
         child = child.rename(columns={"CHILDID97": idname, "CHILDSN97": snname})
     demog = demog.rename(columns={"DEMID97": idname, "DEMSN97": snname})
-    if ocg_child is not None and {"OCGCID97","OCGCSN97"}.issubset(ocg_child.columns):
+    if ocg_child is not None and {"OCGCID97", "OCGCSN97"}.issubset(ocg_child.columns):
         ocg_child = ocg_child.rename(columns={"OCGCID97": idname, "OCGCSN97": snname})
 
     # Base child table
@@ -234,19 +280,19 @@ def build_1997(pid, tas_person, mapfile, cds_ta, ind):
 
     # Attach other child-level blocks
     for df, tag in [(child, "CHILD97"), (demog, "DEMOG1997"), (ocg_child, "OCG_CHLD97")]:
-        if df is None: 
+        if df is None:
             continue
         df = dedup(df, [idname, snname], tag)
         child_tbl = safe_merge(child_tbl, df, on=[idname, snname], how="left", validate="one_to_one")
         assert_unique(child_tbl, [idname, snname], f"1997 after {tag}")
 
     # PCG household via IDMAP
-    idmap_small = dedup(idmap[[idname, snname, "PCGID97","PCGSN97"]], [idname, snname], "IDMAP97 keys")
+    idmap_small = dedup(idmap[[idname, snname, "PCGID97", "PCGSN97"]], [idname, snname], "IDMAP97 keys")
     child_tbl = safe_merge(child_tbl, idmap_small, on=[idname, snname], how="left", validate="one_to_one")
-    if pcg_hh is not None and {"HHID97","HHSN97"}.issubset(pcg_hh.columns):
-        pcg_hh = pcg_hh.rename(columns={"HHID97":"PCGID97", "HHSN97":"PCGSN97"})
-        pcg_hh = dedup(pcg_hh, ["PCGID97","PCGSN97"], "PCG97_HH")
-        child_tbl = safe_merge(child_tbl, pcg_hh, on=["PCGID97","PCGSN97"], how="left", validate="many_to_one")
+    if pcg_hh is not None and {"HHID97", "HHSN97"}.issubset(pcg_hh.columns):
+        pcg_hh = pcg_hh.rename(columns={"HHID97": "PCGID97", "HHSN97": "PCGSN97"})
+        pcg_hh = dedup(pcg_hh, ["PCGID97", "PCGSN97"], "PCG97_HH")
+        child_tbl = safe_merge(child_tbl, pcg_hh, on=["PCGID97", "PCGSN97"], how="left", validate="many_to_one")
 
     # Step 1
     p1 = os.path.join(outdir, "01_cds_merged_1997.csv")
@@ -260,48 +306,59 @@ def build_1997(pid, tas_person, mapfile, cds_ta, ind):
     p2 = os.path.join(outdir, "02_cds_with_family_data_1997.csv")
     step2.to_csv(p2, index=False); print(f"1997 step 2 -> {p2}")
 
-    # === Inject permanent person IDs for 1997 children using PID23 (direct child->person) ===
-    # PID carries each CDS-I child's permanent ER IDs. Prefer it to avoid row explosion.
-
-    # 1) Build a child->person mapping from PID
-    if {"CHLDID97","CHLDSN97","PID2","PID3"}.issubset(pid.columns):
-        pid97 = pid[["CHLDID97","CHLDSN97","PID2","PID3"]].copy()
-        pid97 = pid97.rename(columns={
-            "CHLDID97": idname,
-            "CHLDSN97": snname,
-            "PID2": "ER30001",
-            "PID3": "ER30002"
-        })
+    # === Inject permanent person IDs for 1997 children via CDSIND (authoritative) ===
+    cds_cols = {"CRFID97": idname, "CRSN97": snname, "CDSCUMID68": "ER30001", "CDSCUMPN": "ER30002"}
+    _required = {"CRFID97", "CRSN97", "CDSCUMID68", "CDSCUMPN"}
+    if cdsind_df is not None and _required.issubset(set(cdsind_df.columns)):
+        cds97 = cdsind_df.rename(columns=cds_cols)[[idname, snname, "ER30001", "ER30002"]].drop_duplicates([idname, snname])
+        step2 = safe_merge(step2, cds97, on=[idname, snname], how="left", validate="one_to_one")
+        # After the CDSIND attach succeeds
+        if {"ER30001","ER30002"}.issubset(step2.columns):
+            step2["ER_SOURCE"] = np.where(step2["ER30001"].notna(), "CDSIND", step2.get("ER_SOURCE", pd.NA))
     else:
-        # fallback if your PID uses PID4/PID5 for the 1997 child key
-        pid97 = pid[["PID4","PID5","PID2","PID3"]].copy().rename(columns={
-            "PID4": idname, "PID5": snname, "PID2": "ER30001", "PID3": "ER30002"
-        })
+        print("CDSIND not available or missing 1997 keys; falling back to PID23 for ER IDs.")
+        # PID-based mapping as fallback
+        if {"CHLDID97", "CHLDSN97", "PID2", "PID3"}.issubset(pid.columns):
+            pid97 = pid[["CHLDID97", "CHLDSN97", "PID2", "PID3"]].rename(columns={"CHLDID97": idname, "CHLDSN97": snname, "PID2": "ER30001", "PID3": "ER30002"})
+            pid97 = pid97.drop_duplicates([idname, snname])
+            step2 = safe_merge(step2, pid97, on=[idname, snname], how="left", validate="one_to_one")
+            # After a fallback attach (PID in 1997) succeeds
+            if {"ER30001","ER30002"}.issubset(step2.columns):
+                step2["ER_SOURCE"] = step2.get("ER_SOURCE", pd.Series(pd.NA, index=step2.index))
+                step2["ER_SOURCE"] = step2["ER_SOURCE"].fillna("PID")
 
-    # Deduplicate on the 1997 child key; keep first occurrence
-    before = pid97.shape[0]
-    pid97 = pid97.dropna(subset=[idname, snname]).drop_duplicates(subset=[idname, snname], keep="first")
-    if pid97.shape[0] < before:
-        print(f"Warning: {before - pid97.shape[0]} duplicates on [{idname}, {snname}] in PID 1997 child key. Keeping first.")
-
-    # 2) Merge ER30001/ER30002 into the child table (strict one-to-one)
-    step2 = safe_merge(step2, pid97, on=[idname, snname], how="left", validate="one_to_one")
+    # Optional: audit PID vs CDSIND
+    if cdsind_df is not None and {"CHLDID97", "CHLDSN97", "PID2", "PID3"}.issubset(pid.columns) and {"ER30001", "ER30002"}.issubset(step2.columns):
+        pid97 = pid[["CHLDID97", "CHLDSN97", "PID2", "PID3"]].rename(columns={"CHLDID97": idname, "CHLDSN97": snname, "PID2": "pid_ER30001", "PID3": "pid_ER30002"})
+        audit = step2[[idname, snname, "ER30001", "ER30002"]].merge(pid97, on=[idname, snname], how="left")
+        mism = audit[(audit["pid_ER30001"].notna()) & ((audit["pid_ER30001"] != audit["ER30001"]) | (audit["pid_ER30002"] != audit["ER30002"]))]
+        if not mism.empty:
+            print(f"Warning: {len(mism)} mismatched ER IDs between CDSIND and PID; CDSIND kept.")
 
     # 3) Optional audit against the CDS–TA map (does not mutate rows)
-    if {"ER30001","ER30002"}.issubset(step2.columns) and {"ER30001","ER30002","CDS97KID"}.issubset(mapfile.columns):
-        chk = step2[["ER30001","ER30002"]].drop_duplicates().merge(
-            mapfile[["ER30001","ER30002","CDS97KID"]], on=["ER30001","ER30002"], how="left"
+    if {"ER30001", "ER30002"}.issubset(step2.columns) and {"ER30001", "ER30002", "CDS97KID"}.issubset(mapfile.columns):
+        chk = step2[["ER30001", "ER30002"]].drop_duplicates().merge(
+            mapfile[["ER30001", "ER30002", "CDS97KID"]], on=["ER30001", "ER30002"], how="left"
         )
         cov = (chk["CDS97KID"] == 1).mean()
-        print(f"1997 child→person coverage confirmed by map for {cov:.1%} of rows")
+        print(f"1997 child->person coverage confirmed by map for {cov:.1%} of rows")
+
+    # Step 2b Permanent IDs via CDSIND (optional)
+    child_tbl = attach_perm_ids_from_cdsind(child_tbl, cdsind_df, "1997", (idname, snname))
 
     # Step 3 TAS attach by person using mapfile coverage as sanity check
-    if {"ER30001","ER30002"}.issubset(step2.columns):
-        step3 = safe_merge(step2, tas_person, on=["ER30001","ER30002"], how="left", validate="many_to_one")
+    if {"ER30001", "ER30002"}.issubset(step2.columns):
+        step3 = safe_merge(step2, tas_person, on=["ER30001", "ER30002"], how="left", validate="many_to_one")
     else:
         step3 = step2.copy()
     p3 = os.path.join(outdir, "03_cds_tas_panel_1997.csv")
     step3.to_csv(p3, index=False); print(f"1997 step 3 -> {p3}")
+
+    # Age harmonization for 1997 from DEMOG months
+    if {"CHIWYR", "AGEATCH"}.issubset(step3.columns):
+        step3["AGE_IW_MONTHS"] = step3["AGEATCH"]
+        step3["AGE_IW"] = ((step3["AGEATCH"] + 6) // 12).astype("Int64")
+        step3["YOB"] = (step3["CHIWYR"] - step3["AGE_IW"]).astype("Int64")
 
     # Step 4 time diary
     td_agg = load_csv(os.path.join(CDS97, "TD97_ACT_AGG.csv"), required=False)
@@ -309,53 +366,54 @@ def build_1997(pid, tas_person, mapfile, cds_ta, ind):
     # Weekly aggregates
     td = None
     if td_agg is not None:
-        td_agg = td_agg.rename(columns={"AGGRID97":"ID","AGGRSN97":"SN"})
-        base = td_agg[["ID","SN"]].drop_duplicates()
+        td_agg = td_agg.rename(columns={"AGGRID97": "ID", "AGGRSN97": "SN"})
+        base = td_agg[["ID", "SN"]].drop_duplicates()
         out = base.copy()
         for i in range(1, 40):
             wd = f"WD97{39:02d}{'' if i==1 else ''}".replace("39", f"39{i:02d}")
             we = f"WE97{39:02d}{'' if i==1 else ''}".replace("39", f"39{i:02d}")
             if wd in td_agg.columns and we in td_agg.columns:
-                tmp = td_agg.groupby(["ID","SN"], as_index=False)[[wd, we]].sum()
-                out[f"weekly_avg_hrs_{i:02d}"] = ((tmp[wd].fillna(0)*5) + (tmp[we].fillna(0)*2))/3600.0
+                tmp = td_agg.groupby(["ID", "SN"], as_index=False)[[wd, we]].sum()
+                out[f"weekly_avg_hrs_{i:02d}"] = ((tmp[wd].fillna(0) * 5) + (tmp[we].fillna(0) * 2)) / 3600.0
         td = out
     # Intensive parenting from raw
-    skill_codes = {5490,5491,5492,5493,5494,8010,8011,8012,5040,8020,8030,8040,8090,8510,8520,8211,8212,8213,8214,8215,8221,8222,8223}
+    skill_codes = {5490, 5491, 5492, 5493, 5494, 8010, 8011, 8012, 5040, 8020, 8030, 8040, 8090, 8510, 8520, 8211, 8212, 8213, 8214, 8215, 8221, 8222, 8223}
     act = td_act.copy()
     act["is_skill"] = act["COLA"].isin(skill_codes)
     wd = act[(act["is_skill"]) & (act["T1"] <= 5)]
     we = act[(act["is_skill"]) & (act["T1"] > 5)]
-    base = act[["TDID97","TDSN97"]].drop_duplicates().rename(columns={"TDID97":"ID","TDSN97":"SN"})
+    base = act[["TDID97", "TDSN97"]].drop_duplicates().rename(columns={"TDID97": "ID", "TDSN97": "SN"})
     def block(frame, flag, tag):
-        g = frame[frame[flag]==1].groupby(["TDID97","TDSN97"], as_index=False)["DURATION"].sum()
-        return g.rename(columns={"TDID97":"ID","TDSN97":"SN","DURATION":f"{tag}"})
-    for parent, col in [("mother","COLG_B"), ("father","COLG_C")]:
-        base = base.merge(block(wd, col, f"{parent}_wd_sec"), on=["ID","SN"], how="left")
-        base = base.merge(block(we, col, f"{parent}_we_sec"), on=["ID","SN"], how="left")
+        g = frame[frame[flag] == 1].groupby(["TDID97", "TDSN97"], as_index=False)["DURATION"].sum()
+        return g.rename(columns={"TDID97": "ID", "TDSN97": "SN", "DURATION": f"{tag}"})
+    for parent, col in [("mother", "COLG_B"), ("father", "COLG_C")]:
+        base = base.merge(block(wd, col, f"{parent}_wd_sec"), on=["ID", "SN"], how="left")
+        base = base.merge(block(we, col, f"{parent}_we_sec"), on=["ID", "SN"], how="left")
     for c in base.columns:
-        if c not in ["ID","SN"]:
+        if c not in ["ID", "SN"]:
             base[c] = base[c].fillna(0)
-    base["parent_interactive_skill_hrs_wk"] = ((base["mother_wd_sec"]+base["father_wd_sec"])*5 + (base["mother_we_sec"]+base["father_we_sec"])*2)/3600.0
-    td_int = base[["ID","SN","parent_interactive_skill_hrs_wk"]]
-    td = td_int if td is None else safe_merge(td, td_int, on=["ID","SN"], how="outer", validate="one_to_one")
-    step4 = safe_merge(step3, td, left_on=[idname, snname], right_on=["ID","SN"], how="left")
-    step4 = step4.drop(columns=[c for c in ["ID","SN"] if c in step4.columns])
+    base["parent_interactive_skill_hrs_wk"] = ((base["mother_wd_sec"] + base["father_wd_sec"]) * 5 + (base["mother_we_sec"] + base["father_we_sec"]) * 2) / 3600.0
+    td_int = base[["ID", "SN", "parent_interactive_skill_hrs_wk"]]
+    td = td_int if td is None else safe_merge(td, td_int, on=["ID", "SN"], how="outer", validate="one_to_one")
+    step4 = safe_merge(step3, td, left_on=[idname, snname], right_on=["ID", "SN"], how="left")
+    step4 = step4.drop(columns=[c for c in ["ID", "SN"] if c in step4.columns])
     p4 = os.path.join(outdir, "04_time_use_variables_1997.csv")
     step4.to_csv(p4, index=False); print(f"1997 step 4 -> {p4}")
 
     # Final
     final97 = dedup(step4, [idname, snname], "final 1997 child key")
     assert_unique(final97, [idname, snname], "final 1997 child table")
+    final97 = harmonize_cols(final97, idname, snname, 1997)
     pf = os.path.join(outdir, "final_analysis_dataset_1997.csv")
     final97.to_csv(pf, index=False); print(f"1997 final -> {pf}")
-
+ 
 # -----------------------------
 # 2002 builder
 # -----------------------------
-def build_2002(tas_person, mapfile):
+def build_2002(tas_person, mapfile, ind, cdsind_df=None):
     outdir = os.path.join(OUTROOT, "2002"); ensure_dir(outdir)
     idname, snname = CHILD_KEYS["2002"]
-
+ 
     demog = load_csv(os.path.join(CDS02, "DEMOG.csv"))
     pcg_child = load_csv(os.path.join(CDS02, "PCG_CHLD.csv"))
     child = load_csv(os.path.join(CDS02, "CHILD.csv"), required=False)
@@ -365,11 +423,11 @@ def build_2002(tas_person, mapfile):
     idmap02 = load_csv(os.path.join(CDS02, "IDMAP02.csv"))
     pcg_hh = load_csv(os.path.join(CDS02, "PCG_HHLD.csv"))
     gen_map = load_csv(os.path.join(CDS02, "GEN_MAP.csv"))
-
-    # Base child table from GEN_MAP
-    child_tbl = gen_map[[idname, snname]].drop_duplicates()
+ 
+    # Base child table from IDMAP02 using the true 2002 key
+    child_tbl = idmap02[[idname, snname]].drop_duplicates()
     assert_unique(child_tbl, [idname, snname], "2002 child base")
-
+ 
     # Attach core blocks by 2001 child key
     for df, k1, k2, tag in [
         (demog, "DEMID01", "DEMSN01", "DEMOG"),
@@ -383,7 +441,7 @@ def build_2002(tas_person, mapfile):
         piece = dedup(piece, [idname, snname], tag)
         child_tbl = safe_merge(child_tbl, piece, on=[idname, snname], how="left", validate="one_to_one")
         assert_unique(child_tbl, [idname, snname], f"2002 after {tag}")
-
+ 
     # OCG blocks by child key
     if ocg_ch is not None and {"OCGCID01","OCGCSN01"}.issubset(ocg_ch.columns):
         ch = ocg_ch.rename(columns={"OCGCID01": idname, "OCGCSN01": snname})
@@ -393,20 +451,22 @@ def build_2002(tas_person, mapfile):
         hh = ocg_hh.rename(columns={"OCGHID01": idname, "OCGHSN01": snname})
         hh = dedup(hh, [idname, snname], "OCG_HHLD")
         child_tbl = safe_merge(child_tbl, hh, on=[idname, snname], how="left", validate="one_to_one")
-
+ 
     # PCG household via IDMAP02
-    pcg_hh = pcg_hh.rename(columns={"PHHID01":"PCGID02", "PHHSN01":"PCGSN02"})
+    pcg_hh = pcg_hh.rename(columns={
+        "PHHID01": "PCGID02", "PHHSN01": "PCGSN02",
+        "HHID01": "PCGID02",  "HHSN01":  "PCGSN02"
+    })
     pcg_hh = dedup(pcg_hh, ["PCGID02","PCGSN02"], "PCG_HHLD")
-    idmap02 = idmap02.rename(columns={"CHLDID02":"GENID01", "CHLDSN02":"GENSN01"})
     idmap02 = dedup(idmap02, [idname, snname], "IDMAP02")
     child_tbl = safe_merge(child_tbl, idmap02, on=[idname, snname], how="left", validate="one_to_one")
     if {"PCGID02","PCGSN02"}.issubset(child_tbl.columns):
         child_tbl = safe_merge(child_tbl, pcg_hh, on=["PCGID02","PCGSN02"], how="left", validate="many_to_one")
-
+ 
     # Step 1
     p1 = os.path.join(outdir, "01_cds_merged_2002.csv")
     child_tbl.to_csv(p1, index=False); print(f"2002 step 1 -> {p1}")
-
+ 
     # Step 2 family 2001
     fam = load_csv(FAM2001)
     fam = dedup(fam.rename(columns={"ER17002": idname}), [idname], "FAM2001ER")
@@ -414,17 +474,47 @@ def build_2002(tas_person, mapfile):
     assert_unique(step2, [idname, snname], "2002 step2")
     p2 = os.path.join(outdir, "02_cds_with_family_data_2002.csv")
     step2.to_csv(p2, index=False); print(f"2002 step 2 -> {p2}")
-
-    # Permanent IDs via GEN_MAP
-    gm = gen_map.rename(columns={"CH_ID68":"ER30001","CH_PN":"ER30002"})[[idname, snname, "ER30001","ER30002"]]
-    gm = dedup(gm, [idname, snname], "GEN_MAP one-to-one")
-    step2 = safe_merge(step2, gm, on=[idname, snname], how="left", validate="one_to_one")
+ 
+    # Permanent IDs via CDSIND if available; fallback to GEN_MAP
+    step2 = attach_perm_ids_from_cdsind(step2, cdsind_df, "2002", (idname, snname))
+    # After the CDSIND attach succeeds
+    if {"ER30001","ER30002"}.issubset(step2.columns):
+        step2["ER_SOURCE"] = np.where(step2["ER30001"].notna(), "CDSIND", step2.get("ER_SOURCE", pd.NA))
+    if "ER30001" not in step2.columns or step2["ER30001"].isna().all():
+        # Join via GEN_MAP 2001 keys -> ER IDs, then map onto the 2002 child key
+        gm = gen_map.rename(columns={"CH_ID68": "ER30001", "CH_PN": "ER30002"})
+        gm = gm[["GENID01", "GENSN01", "ER30001", "ER30002"]].drop_duplicates(subset=["GENID01","GENSN01"])
+        step2 = safe_merge(
+            step2,
+            gm,
+            left_on=[idname, snname],
+            right_on=["GENID01", "GENSN01"],
+            how="left",
+            validate="one_to_one"
+        ).drop(columns=["GENID01", "GENSN01"])
+        # After a fallback attach (GEN_MAP in 2002) succeeds
+        if {"ER30001","ER30002"}.issubset(step2.columns):
+            step2["ER_SOURCE"] = step2.get("ER_SOURCE", pd.Series(pd.NA, index=step2.index))
+            step2["ER_SOURCE"] = step2["ER_SOURCE"].fillna("GEN_MAP")
+ 
+    # YOB from IND and AGE_IW from assessment year
+    ind_yob = ind[["ER30001","ER30002","ER33906"]].drop_duplicates().rename(columns={"ER33906":"YOB"})
+    step2 = safe_merge(step2, ind_yob, on=["ER30001","ER30002"], how="left", validate="many_to_one")
+    assess_col = next((c for c in ["Q24YEAR","ASSESS_YEAR","ASMT_YEAR"] if c in step2.columns), None)
+    if assess_col:
+        step2["AGE_IW"] = (pd.to_numeric(step2[assess_col], errors="coerce") - pd.to_numeric(step2["YOB"], errors="coerce")).astype("Int64")
+ 
+    # (Removed stray miswave CDSIND/IND age blocks for 2007)
+ 
+    # Remove duplicated mis-indented block
 
     # Step 3 TAS attach by person
     step3 = safe_merge(step2, tas_person, on=["ER30001","ER30002"], how="left", validate="many_to_one")
     p3 = os.path.join(outdir, "03_cds_tas_panel_2002.csv")
     step3.to_csv(p3, index=False); print(f"2002 step 3 -> {p3}")
-
+ 
+    # (Harmonize after time diary, on final table)
+ 
     # Step 4 time diary
     td_agg = load_csv(os.path.join(CDS02, "TD02_ACT_AGG.csv"))
     td_act = load_csv(os.path.join(CDS02, "TD_ACTIVITY.csv"))
@@ -438,7 +528,7 @@ def build_2002(tas_person, mapfile):
             tmp = td_agg.groupby(["ID","SN"], as_index=False)[[wd, we]].sum()
             out[f"weekly_avg_hrs_{i:02d}"] = ((tmp[wd].fillna(0)*5) + (tmp[we].fillna(0)*2))/3600.0
     td_block = out
-
+ 
     # Intensive parenting
     skill_codes = {5490,5491,5492,5493,5494,8010,8011,8012,5040,8020,8030,8040,8090,8510,8520,8211,8212,8213,8214,8215,8221,8222,8223}
     act = td_act.copy()
@@ -462,20 +552,22 @@ def build_2002(tas_person, mapfile):
     step4 = step4.drop(columns=[c for c in ["ID","SN"] if c in step4.columns])
     p4 = os.path.join(outdir, "04_time_use_variables_2002.csv")
     step4.to_csv(p4, index=False); print(f"2002 step 4 -> {p4}")
-
+ 
     # Final
     final02 = dedup(step4, [idname, snname], "final 2002 child key")
     assert_unique(final02, [idname, snname], "final 2002 child table")
+    # Harmonize final output columns
+    final02 = harmonize_cols(final02, idname, snname, 2002)
     pf = os.path.join(outdir, "final_analysis_dataset_2002.csv")
     final02.to_csv(pf, index=False); print(f"2002 final -> {pf}")
-
+ 
 # -----------------------------
 # 2007 builder
 # -----------------------------
-def build_2007(tas_person, mapfile):
+def build_2007(tas_person, mapfile, ind, cdsind_df=None):
     outdir = os.path.join(OUTROOT, "2007"); ensure_dir(outdir)
     idname, snname = CHILD_KEYS["2007"]
-
+ 
     demog = load_csv(os.path.join(CDS07, "DEMOG07.csv"))
     pcg_child = load_csv(os.path.join(CDS07, "PCG_CHILD07.csv"))
     child = load_csv(os.path.join(CDS07, "CHILD07.csv"), required=False)
@@ -483,11 +575,11 @@ def build_2007(tas_person, mapfile):
     idmap07 = load_csv(os.path.join(CDS07, "IDMAP07.csv"))
     pcg_hh = load_csv(os.path.join(CDS07, "PCG_HH07.csv"))
     gen07 = load_csv(os.path.join(CDS07, "GENMAP07.csv"))
-
+ 
     # Base child table from PCG child universe
     child_tbl = pcg_child.rename(columns={"PCHID07": idname, "PCHSN07": snname})[[idname, snname]].drop_duplicates()
     assert_unique(child_tbl, [idname, snname], "2007 child base")
-
+ 
     # Bring DEMOG and CHILD/ASSESS coverage (for keys only to preserve one row)
     if child is not None and {"CHLDID07","CHLDSN07"}.issubset(child.columns):
         piece = child[[idname, snname]].drop_duplicates()
@@ -495,11 +587,11 @@ def build_2007(tas_person, mapfile):
     if assess is not None and {"ASMID07","ASMSN07"}.issubset(assess.columns):
         piece = assess.rename(columns={"ASMID07": idname, "ASMSN07": snname})[[idname, snname]].drop_duplicates()
         child_tbl = safe_merge(child_tbl, piece, on=[idname, snname], validate="one_to_one")
-
+ 
     dem_small = demog.rename(columns={"DEMID07": idname, "DEMSN07": snname})
     dem_small = dedup(dem_small, [idname, snname], "DEMOG07")
     child_tbl = safe_merge(child_tbl, dem_small, on=[idname, snname], how="left", validate="one_to_one")
-
+ 
     # Household via IDMAP07
     idmap07 = idmap07.rename(columns={"CHILDID07": idname, "CHILDSN07": snname})
     idmap07_small = dedup(idmap07[[idname, snname, "PCGID07","PCGSN07"]], [idname, snname], "IDMAP07 keys")
@@ -508,12 +600,12 @@ def build_2007(tas_person, mapfile):
     pcg_hh = dedup(pcg_hh, ["PCGID07","PCGSN07"], "PCG_HH07")
     if {"PCGID07","PCGSN07"}.issubset(child_tbl.columns):
         child_tbl = safe_merge(child_tbl, pcg_hh, on=["PCGID07","PCGSN07"], how="left", validate="many_to_one")
-
+ 
     # Permanent IDs for 2007 by direct child->GEN join, then GEN->ER via GENMAP07
     # GENMAP07: [GENID07, GENSN07] -> [CH07_ID, CH07_PN] which are ER30001 and ER30002
     g07 = gen07.rename(columns={"GENID07":"GENID07","GENSN07":"GENSN07","CH07_ID":"ER30001","CH07_PN":"ER30002"})
     g07 = dedup(g07, ["GENID07","GENSN07"], "GENMAP07")
-
+ 
     # First add GEN keys to child table if not present
     # Many 2007 files use the same Interview Number and CYPSN for child and GEN
     child_to_gen = demog.rename(columns={"DEMID07":"GENID07","DEMSN07":"GENSN07"})[["GENID07","GENSN07"]].drop_duplicates()
@@ -521,11 +613,11 @@ def build_2007(tas_person, mapfile):
     child_tbl = safe_merge(child_tbl, child_to_gen, left_on=[idname, snname], right_on=["GENID07","GENSN07"], how="left", validate="one_to_one")
     # Then attach ER IDs
     child_tbl = safe_merge(child_tbl, g07[["GENID07","GENSN07","ER30001","ER30002"]], on=["GENID07","GENSN07"], how="left", validate="many_to_one")
-
+ 
     # Step 1
     p1 = os.path.join(outdir, "01_cds_merged_2007.csv")
     child_tbl.to_csv(p1, index=False); print(f"2007 step 1 -> {p1}")
-
+ 
     # Step 2 family 2007
     fam = load_csv(FAM2007)
     fam = dedup(fam.rename(columns={"ER36002": idname}), [idname], "FAM2007ER")
@@ -533,6 +625,17 @@ def build_2007(tas_person, mapfile):
     assert_unique(step2, [idname, snname], "2007 step2")
     p2 = os.path.join(outdir, "02_cds_with_family_data_2007.csv")
     step2.to_csv(p2, index=False); print(f"2007 step 2 -> {p2}")
+ 
+    # Step 2b Permanent IDs via CDSIND (optional)
+    child_tbl = attach_perm_ids_from_cdsind(child_tbl, cdsind_df, "2007", (idname, snname))
+ 
+    # Step 2c Age/YOB from IND
+    if {"ER30001","ER30002"}.issubset(child_tbl.columns):
+        ind_keep07 = ind[["ER30001","ER30002","ER33904","ER33906"]].drop_duplicates()
+        ind_keep07 = ind_keep07.rename(columns={"ER33904":"AGE_IW","ER33906":"YOB"})
+        child_tbl = safe_merge(child_tbl, ind_keep07, on=["ER30001","ER30002"], how="left", validate="many_to_one")
+ 
+    # (Removed duplicate second CDSIND/IND age block)
 
     # Step 3 TAS attach by person
     if {"ER30001","ER30002"}.issubset(step2.columns):
@@ -542,7 +645,9 @@ def build_2007(tas_person, mapfile):
         step3 = step2.copy()
     p3 = os.path.join(outdir, "03_cds_tas_panel_2007.csv")
     step3.to_csv(p3, index=False); print(f"2007 step 3 -> {p3}")
-
+ 
+    # (Harmonize after time diary, on final table)
+ 
     # Step 4 time diary
     td_agg = load_csv(os.path.join(CDS07, "TD_ACTAGG07.csv"))
     td_act = load_csv(os.path.join(CDS07, "TD_ACT07.csv"))
@@ -556,7 +661,7 @@ def build_2007(tas_person, mapfile):
             tmp = td_agg.groupby(["ID","SN"], as_index=False)[[wd, we]].sum()
             out[f"weekly_avg_hrs_{i:02d}"] = ((tmp[wd].fillna(0)*5) + (tmp[we].fillna(0)*2))/3600.0
     td_block = out
-
+ 
     skill_codes = {5490,5491,5492,5493,5494,8010,8011,8012,5040,8020,8030,8040,8090,8510,8520,8211,8212,8213,8214,8215,8221,8222,8223}
     act = td_act.copy()
     act["is_skill"] = act["COLA_07"].isin(skill_codes)
@@ -579,13 +684,15 @@ def build_2007(tas_person, mapfile):
     step4 = step4.drop(columns=[c for c in ["ID","SN"] if c in step4.columns])
     p4 = os.path.join(outdir, "04_time_use_variables_2007.csv")
     step4.to_csv(p4, index=False); print(f"2007 step 4 -> {p4}")
-
+ 
     # Final
     final07 = dedup(step4, [idname, snname], "final 2007 child key")
     assert_unique(final07, [idname, snname], "final 2007 child table")
+    # Harmonize final output columns
+    final07 = harmonize_cols(final07, idname, snname, 2007)
     pf = os.path.join(outdir, "final_analysis_dataset_2007.csv")
     final07.to_csv(pf, index=False); print(f"2007 final -> {pf}")
-
+ 
 # -----------------------------
 # Integrity audits
 # -----------------------------
@@ -594,6 +701,11 @@ def audit_year(year: str, outroot: str, child_keys: tuple, family_key: str):
     pf = os.path.join(year_dir, "final_analysis_dataset_" + year + ".csv")
     final = pd.read_csv(pf, low_memory=False)
     idcol, sncol = child_keys
+    # Support harmonized outputs where child keys were renamed
+    if idcol not in final.columns and sncol not in final.columns and {"CHILD_ID","CHILD_SN"}.issubset(final.columns):
+        idcol, sncol = "CHILD_ID", "CHILD_SN"
+    if family_key not in final.columns and "CHILD_ID" in final.columns:
+        family_key = "CHILD_ID"
     print(f"\n=== Integrity audit {year} ===")
     # one child per row
     if final.duplicated(subset=[idcol, sncol]).any():
@@ -627,18 +739,24 @@ def main():
     # Spine and PID load to verify environment and for 1997 mapping
     ind = load_spine()
     pid = load_pid()
-    # Mapfile and TAS
-    mapfile = load_mapfile()
-    
-    # Load CDS-TA map using new function
+    # Mapfile and TAS (use the compact CDS–TA loader for both map and cds_ta)
+    mapfile = load_cds_ta_map(BASE_DATA_PATH)
     cds_ta = load_cds_ta_map(BASE_DATA_PATH)
+    # Load CDSIND once (prints a message if missing and returns None)
+    cdsind = load_cdsind() if "load_cdsind" in globals() else None
     tas_person = build_tas_person_blocks(cds_ta)
 
-    # Build waves
-    build_1997(pid, tas_person, mapfile, cds_ta, ind)
-    build_2002(tas_person, mapfile)
-    build_2007(tas_person, mapfile)
-
+    build_1997(pid, tas_person, mapfile, cds_ta, ind, cdsind)
+    # If your build_2002/build_2007 already accept cdsind and ind, keep these forms:
+    try:
+        build_2002(tas_person, mapfile, ind, cdsind)
+    except TypeError:
+        build_2002(tas_person, mapfile)
+    try:
+        build_2007(tas_person, mapfile, ind, cdsind)
+    except TypeError:
+        build_2007(tas_person, mapfile)
+ 
     # Audits
     audit_all()
     print("All waves complete. Outputs under 'Processed Outputs' with subfolders 1997, 2002, 2007.")
