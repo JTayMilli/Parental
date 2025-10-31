@@ -7,3 +7,4 @@ df2.to_csv('SampleIND2023ER.csv', index=False)
 
 df = df[['ER30001','ER30002','ER33601','ER33602','ER33801','ER33802','ER33901','ER33902','ER34301','ER34302','ER33401','ER33402','ER33904','ER33906']]
 df.to_csv('ColumnsIND2023ER.csv', index=False)
+

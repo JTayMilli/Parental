@@ -138,6 +138,16 @@ def safe_merge(left, right, on=None, left_on=None, right_on=None, how="left", va
         raise RuntimeError(f"Merge failed with validate={validate}: {e}")
 
 
+def normalize_1997_td_keys(df):
+    if df is None:
+        return None
+    if {"AGGRID97", "AGGRSN97"}.issubset(df.columns):
+        return df.rename(columns={"AGGRID97": "ID", "AGGRSN97": "SN"})
+    if {"TDID97", "TDSN97"}.issubset(df.columns):
+        return df.rename(columns={"TDID97": "ID", "TDSN97": "SN"})
+    raise ValueError("1997 TD file has no recognizable key columns.")
+
+
 def harmonize_cols(df, idcol, sncol, wave):
     out = df.copy()
     out = out.rename(columns={idcol: "CHILD_ID", sncol: "CHILD_SN"})
@@ -468,13 +478,44 @@ def build_1997(pid, tas_person, mapfile, cds_ta, ind, cdsind_df=None):
     print(f"1997 step 3 -> {p3}")
 
     # Step 4: time use (1997)
+    # 4. Time diary (1997)
     td_agg = load_csv(os.path.join(CDS97, "TD97_ACT_AGG.csv"), required=False)
-    td_long = load_csv(os.path.join(CDS97, "TD97.csv"), required=False)
+    td_act = load_csv(os.path.join(CDS97, "TD97.csv"), required=False)
+
+    td_panel = None
+
     if td_agg is not None:
-        td_agg = td_agg.rename(columns={"TDID97": idname, "TDSN97": snname})
-        step4 = safe_merge(step3, td_agg, on=[idname, snname], how="left")
+        td_agg = normalize_1997_td_keys(td_agg)
+
+        base = td_agg[["ID", "SN"]].drop_duplicates()
+
+        # Build wide weekday/weekend activity blocks from the aggregate file
+        out = base.copy()
+        for i in range(1, 40):
+            wcol = f"WD_ACT{i:02d}"
+            wecol = f"WE_ACT{i:02d}"
+            if wcol in td_agg.columns:
+                out[wcol] = td_agg.set_index(["ID", "SN"])[wcol]
+            if wecol in td_agg.columns:
+                out[wecol] = td_agg.set_index(["ID", "SN"])[wecol]
+
+        td_panel = out.reset_index(drop=True)
+
+    # Attach to the CDS panel
+    if td_panel is not None:
+        idname, snname = CHILD_KEYS["1997"]  # gives ("CHLDID97","CHLDSN97")
+        step4 = safe_merge(
+            step3,
+            td_panel,
+            left_on=[idname, snname],
+            right_on=["ID", "SN"],
+            how="left",
+            validate="one_to_one",
+        )
+        # drop helper keys
+        step4 = step4.drop(columns=["ID", "SN"])
     else:
-        step4 = step3
+        step4 = step3.copy()
 
     p4 = os.path.join(outdir, "04_time_use_variables_1997.csv")
     step4.to_csv(p4, index=False)
